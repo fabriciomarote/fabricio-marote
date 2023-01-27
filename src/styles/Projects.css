@@ -105,24 +105,28 @@
 
 .right-arrow {
     position: absolute;
-    top: 50%;
+    top: 45%;
     right: -20px;
     font-size: 3rem;
     color: var(--icon);
     z-index: 10;
     cursor: pointer;
     user-select: none;
-  }
+}
   
-  .left-arrow {
+.left-arrow {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: -20px;
     font-size: 3rem;
     color: var(--icon);
     z-index: 10;
     cursor: pointer;
     user-select: none;
+}
+
+.right-arrow, .left-arrow {
+    color: rgba(255, 255, 255, 0.3);
   }
 
 @media (min-width: 1200px) {
@@ -195,13 +199,13 @@
         width: 80%;
     }
     .right-arrow {
-        top: 43%;
-        right: -90px;
+        top: 40%;
+        right: -85px;
        
     }
     .left-arrow {
-        top: 43%;
-        left: -90px;
+        top: 40%;
+        left: -85px;
     }
     .right-arrow:hover, .left-arrow:hover {
         color: var(--text-primary);

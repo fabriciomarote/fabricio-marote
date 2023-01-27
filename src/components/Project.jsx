@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom';
 import { FaGithub, FaPager } from "react-icons/fa";
-import { RxDoubleArrowLeft, RxDoubleArrowRight } from 'react-icons/rx';
+import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from 'react-icons/io';
 import projects from "../data/Projects.js";
 import NavBar from '../components/NavBar.jsx';
 import useLocalStorage from 'use-local-storage';
@@ -15,7 +15,6 @@ const Project = () => {
     const [project, setProject] = useState([]);
     const [techsProject, setTechsProject] = useState([]);
     const [imagesProject, setImagesProject] = useState([]);
-    const [image, setImage] = useState([]);
 
     const [stateModal, setStateModal] = useState(false);
 
@@ -62,8 +61,8 @@ const Project = () => {
                             <div className={index === current ? 'slide active' : 'slide'} key={index}>
                                 {index === current && ( 
                                 <>
-                                    <RxDoubleArrowLeft className='arrow-left' onClick={prevProject} />
-                                    <RxDoubleArrowRight className='arrow-right' onClick={nextProject} />                                
+                                    <IoIosArrowDropleftCircle className='arrow-left' onClick={prevProject} />
+                                    <IoIosArrowDroprightCircle className='arrow-right' onClick={nextProject} />                                
                                     <img alt="imagen" className="p-image" src={image} onClick={() => setStateModal(!stateModal)} />
                                     <Modal image={image} state={stateModal} setState={setStateModal} />
                                 </>

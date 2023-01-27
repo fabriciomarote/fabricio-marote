@@ -10,7 +10,7 @@ const ModelProject = (props) => {
                 <img alt="imagen" className="image-project1" src={project.image}></img>
                 <div className="add-info">
                     <p className="title">{project.title}</p>
-                    <a href={`/projects/${project.id}`} className='project-button hvr-shutter-in-horizontal'>Ver Proyecto</a>
+                    <a href={`/projects/${project.id}`} className='project-button'>Ver Proyecto</a>
                 </div>
             </div>
     );

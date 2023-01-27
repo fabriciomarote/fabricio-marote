@@ -22,7 +22,7 @@
     padding: 10px;
     transform: translateY(100%);
     transition: all 0.5s ease-out;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     height: 100%;
 }
 
@@ -31,11 +31,12 @@
 }
 
 .title {
-   font-size: 70px;
-   font-weight: 300;
-   font-family:fantasy;
+   font-size: 42px;
+   font-weight: 650;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: rgb(255, 255, 255);
-   -webkit-text-stroke: 3px rgb(0, 0, 0);
+   text-transform: uppercase;
+   -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
 .project-button {
@@ -49,14 +50,18 @@
     font-size: 15px;
     border-radius: 3px;
     border-style: inset;
-    border-color: white;
+    border-color: rgb(0, 0, 0);
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     transition: .3s ease all;
     text-decoration: none;
-    color: wheat;
+    color: rgb(0, 0, 0);
     background-color: #07070700; 
+}
+
+.project-button {
+    background-color: #ffffffe4; 
 }
 
 .image-project1, .image-project2 {
@@ -93,19 +98,31 @@
 @media (max-height: 600px) and (max-width: 400px) {
     .modelProject-container {
         width: 300px;
-        height: 250px;
+        height: 200px;
         margin: 20px;
-    }
-    .image-project1 {
-        display: none;
-    }  
-
+    } 
     .image-project2 {
         width: 100%;
         height: 100%;
     }
     .title {
-        margin-bottom: 0px;
-        font-size: 35px;   
+        font-weight: 800;
+        margin-bottom: 20px;
+        font-size: 20px;   
+    }
+    .project-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 40px;
+        border:#fff;
+        color: #fff;
+        border-style: solid;
+        background-color: rgba(0, 0, 0, 0);
+        margin: 20px;
+        font-size: 15px;
+        border-radius: 1px;
+
     }
   }

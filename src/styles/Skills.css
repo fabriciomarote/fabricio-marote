@@ -13,8 +13,6 @@
     display: grid;
     justify-content: center; 
     align-items: center;
-    gap: 0.5rem;
-    grid-template-columns: repeat(5, 1fr); 
 }
 
 .title-icon {
@@ -42,11 +40,7 @@
   }
 
 .icon {
-    overflow: hidden;
     border-radius: 20px;
-    border: none;
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
-    color: rgb(176, 0, 0);
     width: 200px;
     height: 100px;
     margin: 10px;
@@ -82,20 +76,19 @@
         min-width:99vw;
     }
     .box-icons {
-        margin-bottom: 100px;
-        width:89vw;
-    }
-}
-
-@media (max-width: 1279px) and (min-width: 720px) {
-    .skills-container {
-        width:100%;
-        margin-top: 150px;
-    }
-    .box-icons {
-        width: 100%;
-        margin-bottom: 150px;
+        display: grid;
+        justify-content: center; 
+        align-items: center;
         gap: 0.5rem;
+        grid-template-columns: repeat(5, 1fr);
+        margin-bottom: 100px;
+        width:89vw; 
+    }
+    .icon {
+        border-radius: 20px;
+        width: 200px;
+        height: 100px;
+        margin: 10px;
     }
 }
 
@@ -119,28 +112,35 @@
         width: 100%;
     }
     .box-icons {
+        display: grid;
+        justify-content: center;
+        align-items: center;
         margin-top: 10px;
         margin-bottom: 50px;
         width: 90%;
         gap: 1.5rem;
         grid-template-columns: repeat(2, 1fr); 
-        padding-left: 20px;
+        padding: 0px;
     }
 }
 
 @media (max-height: 600px) and (max-width: 400px) {
     .skills-container {
         min-height: 100vh;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .icon {
-            overflow: hidden;
-            border-radius: 20px;
-            border: none;
-            box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
-            color: rgb(176, 0, 0);
-            width: 150px;
-            height: 100px;
-            margin: 10px;
+        overflow: hidden;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+        color: rgb(176, 0, 0);
+        width: 150px;
+        height: 100px;
+        margin: 0px;
     }
     .icon-skill {
         width: 90%;
@@ -151,6 +151,8 @@
         display: grid;
         justify-content: center; 
         align-items: center;
+        width: 80%;
+        gap: 1rem;
     }
     .title-icon {
         font-size: 25px;
@@ -162,6 +164,5 @@
       width: 100%;
       min-height: 100vh;
       margin-left: 0px;
-      
     }
-  }
+}
