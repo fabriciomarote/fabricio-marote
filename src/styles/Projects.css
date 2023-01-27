@@ -201,14 +201,15 @@
     .right-arrow {
         top: 40%;
         right: -85px;
-       
+        color: var(--text-primary);
     }
     .left-arrow {
         top: 40%;
         left: -85px;
+        color: var(--text-primary);
     }
     .right-arrow:hover, .left-arrow:hover {
-        color: var(--text-primary);
+        color: var(--icon);
     } 
 }
 

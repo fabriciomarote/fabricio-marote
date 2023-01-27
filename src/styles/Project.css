@@ -237,6 +237,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-bottom: 30px;
     }
     .button-project {
       width: 200px;
@@ -245,7 +246,7 @@
       font-size: 17px; 
     }
     .p-image {
-      height: 195px;
+      height: 180px;
       flex: 1;
       transition: .3s;
       border-radius: 10px;
@@ -264,13 +265,13 @@
     }
     .arrow-right {
       top: 45%;
-      right: 15px;
+      right: 60px;
       font-size: 2rem;
     }
     
     .arrow-left {
       top: 45%;
-      left: 15px;
+      left: 60px;
       font-size: 2rem;
     }
     .image-modal {

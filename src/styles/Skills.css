@@ -13,6 +13,8 @@
     display: grid;
     justify-content: center; 
     align-items: center;
+    gap: 0.5rem;
+    grid-template-columns: repeat(5, 1fr); 
 }
 
 .title-icon {
@@ -40,7 +42,11 @@
   }
 
 .icon {
+    overflow: hidden;
     border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+    color: rgb(176, 0, 0);
     width: 200px;
     height: 100px;
     margin: 10px;
@@ -76,19 +82,20 @@
         min-width:99vw;
     }
     .box-icons {
-        display: grid;
-        justify-content: center; 
-        align-items: center;
-        gap: 0.5rem;
-        grid-template-columns: repeat(5, 1fr);
         margin-bottom: 100px;
-        width:89vw; 
+        width:89vw;
     }
-    .icon {
-        border-radius: 20px;
-        width: 200px;
-        height: 100px;
-        margin: 10px;
+}
+
+@media (max-width: 1279px) and (min-width: 720px) {
+    .skills-container {
+        width:100%;
+        margin-top: 150px;
+    }
+    .box-icons {
+        width: 100%;
+        margin-bottom: 150px;
+        gap: 0.5rem;
     }
 }
 
@@ -112,19 +119,45 @@
         width: 100%;
     }
     .box-icons {
-        display: grid;
-        justify-content: center;
-        align-items: center;
         margin-top: 10px;
         margin-bottom: 50px;
         width: 90%;
         gap: 1.5rem;
         grid-template-columns: repeat(2, 1fr); 
-        padding: 0px;
+        padding-left: 20px;
     }
 }
 
 @media (max-height: 600px) and (max-width: 400px) {
+    .skills-container {
+        min-height: 100vh;
+    }
+    .icon {
+            overflow: hidden;
+            border-radius: 20px;
+            border: none;
+            box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+            color: rgb(176, 0, 0);
+            width: 150px;
+            height: 100px;
+            margin: 10px;
+    }
+    .icon-skill {
+        width: 90%;
+        height: 90%;
+        padding-top: 5px;
+    }
+    .box-icons {
+        display: grid;
+        justify-content: center; 
+        align-items: center;
+    }
+    .title-icon {
+        font-size: 25px;
+    }
+}
+
+@media (max-height: 400px) and (max-width: 600px) {
     .skills-container {
         min-height: 100vh;
         align-items: center;
@@ -157,12 +190,4 @@
     .title-icon {
         font-size: 25px;
     }
-}
-
-@media (max-height: 400px) and (max-width: 600px) {
-    .skills-container {
-      width: 100%;
-      min-height: 100vh;
-      margin-left: 0px;
-    }
-}
+  }
