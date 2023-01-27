@@ -43,17 +43,17 @@ export default Modal;
     border-radius:0px;
     padding: 0px;
     @media (max-width:600px) {
-      height: 550px;
-      width: 500px;
+      height: 200px;
+      width: 550px;
     }
   `;
 
   const BotonCerrar = styled.div`
     position: absolute;
     top: 10px;
-    right: 10px;
-    width: 40px;
-    height: 40px;
+    right: 30px;
+    width: 20px;
+    height: 20px;
     border: none;
     background #f2f2f2;
     cursor: pointer;

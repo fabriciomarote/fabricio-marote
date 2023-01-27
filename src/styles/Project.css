@@ -245,11 +245,10 @@
       font-size: 17px; 
     }
     .p-image {
-      height: 160px;
+      height: 195px;
       flex: 1;
       transition: .3s;
       border-radius: 10px;
-      opacity: 0.7;
       cursor: pointer;
     }
     .box-techs {
@@ -264,14 +263,19 @@
       margin: 10px;
     }
     .arrow-right {
-      top: 43%;
-      right: 5px;
+      top: 45%;
+      right: 15px;
       font-size: 2rem;
     }
     
     .arrow-left {
-      top: 43%;
-      left: 5px;
+      top: 45%;
+      left: 15px;
       font-size: 2rem;
+    }
+    .image-modal {
+      width: 90%;
+      height: 95%;
+      margin-left: 20px;
     }
   }

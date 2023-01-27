@@ -97,8 +97,8 @@
 
 @media (max-height: 600px) and (max-width: 400px) {
     .modelProject-container {
-        width: 300px;
-        height: 200px;
+        width: 280px;
+        height: 190px;
         margin: 20px;
     } 
     .image-project2 {

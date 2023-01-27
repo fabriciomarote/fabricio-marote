@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import projects from "../data/Projects.js";
 import ModelProject from './ModelProject.jsx';
-import { IoMdArrowDropleftCircle, IoMdArrowDroprightCircle } from 'react-icons/io';
+import { MdArrowBackIosNew, MdArrowForwardIos } from 'react-icons/md';
 import WOW from 'wowjs';
 import '../styles/Projects.css';
 
@@ -56,8 +56,8 @@ const Proyects = () => {
                 </div> 
                 <div className='box-home-2'>
                     <div className='box-projects'>
-                        <IoMdArrowDropleftCircle className='left-arrow' onClick={prevProject} />
-                        <IoMdArrowDroprightCircle className='right-arrow' onClick={nextProject} />
+                        <MdArrowBackIosNew className='left-arrow' onClick={prevProject} />
+                        <MdArrowForwardIos className='right-arrow' onClick={nextProject} />
                         { viewProjects.map((project, index) => {
                             return (
                                 <div className={index === current ? 'slide active' : 'slide'} key={index}>
