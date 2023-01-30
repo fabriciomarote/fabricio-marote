@@ -108,7 +108,6 @@
     top: 45%;
     right: -20px;
     font-size: 3rem;
-    color: var(--icon);
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -119,14 +118,13 @@
     top: 45%;
     left: -20px;
     font-size: 3rem;
-    color: var(--icon);
     z-index: 10;
     cursor: pointer;
     user-select: none;
 }
 
 .right-arrow, .left-arrow {
-    color: rgba(255, 255, 255, 0.3);
+    color: var(--icon);
   }
 
 @media (min-width: 1200px) {

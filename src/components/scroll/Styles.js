@@ -22,8 +22,8 @@ export const Button = styled.div`
    cursor: pointer;
    color: var(--hover);
    @media (min-width: 1280px) {
-      left: 94.5%;
-      top:79%;
+      left: 95%;
+      top:82%;
       font-size: 5rem;
    }
    @media (max-height: 1024px) and (max-width: 768px) {

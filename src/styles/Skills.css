@@ -13,8 +13,8 @@
     display: grid;
     justify-content: center; 
     align-items: center;
-    gap: 0.5rem;
-    grid-template-columns: repeat(5, 1fr); 
+    gap: 2rem;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .title-icon {
@@ -83,7 +83,8 @@
     }
     .box-icons {
         margin-bottom: 100px;
-        width:89vw;
+        width:100%;
+        padding: 20px;
     }
 }
 

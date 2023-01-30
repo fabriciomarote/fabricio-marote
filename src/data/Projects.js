@@ -8,7 +8,6 @@ import PPTLS4 from "../assets/img/projects/PPTLS4.png";
 import PPTLS5 from "../assets/img/projects/PPTLS5.png";
 import PPTLS6 from "../assets/img/projects/PPTLS6.png";
 import PPTLS7 from "../assets/img/projects/PPTLS7.png";
-//import Horney from "../assets/img/projects/horney.png";
 import Rotten from "../assets/img/projects/Rotten.png";
 import Rotten1 from "../assets/img/projects/rotten1.png";
 import Rotten2 from "../assets/img/projects/rotten2.png";
@@ -17,6 +16,9 @@ import Rotten4 from "../assets/img/projects/rotten4.png";
 import Rotten5 from "../assets/img/projects/rotten5.png";
 import Rotten6 from "../assets/img/projects/rotten6.png";
 import Rotten7 from "../assets/img/projects/rotten7.png";
+import Rotten8 from "../assets/img/projects/rotten8.png";
+import Rotten9 from "../assets/img/projects/rotten9.png";
+import Rotten10 from "../assets/img/projects/rotten10.png";
 import Calculadora from "../assets/img/projects/Calculadora.png";
 import Calculadora1 from "../assets/img/projects/calculadora1.png";
 import Turnero from "../assets/img/projects/Turnero.png";
@@ -49,7 +51,7 @@ const projects = [
       link2: "https://github.com/fabriciomarote/Pokedex",
       title: "Pokedex",
       techs: ["Javascript","HTML", "CSS", "React", "Bootstrap"],
-      text: "Es un proyecto realizado de la pagina codealo.dev y se consumen datos de una api externa para poder realizarlo.",
+      text: "Fue realizado como proyecto de la página codealo.dev, luego le agregue la posibilidad de cambiar de tema y es un proyecto Responsive. Se consumen datos de una API externa para realizarlo.",
       type: "Frontend",
     },
     {
@@ -77,7 +79,7 @@ const projects = [
     {
       id: 4,
       image: Rotten,
-      images: [Rotten1, Rotten2, Rotten3, Rotten4, Rotten5, Rotten6, Rotten7], 
+      images: [Rotten1, Rotten2, Rotten3, Rotten4, Rotten5, Rotten6, Rotten7, Rotten8, Rotten9, Rotten10], 
       link1: null,
       link2: "https://github.com/fabriciomarote/RottenTomatoes-api-web",
       title: "Rotten Tomatoes",

@@ -27,7 +27,7 @@
 }
 
 .p-image {
-    height: 400px;
+    height: 350px;
     flex: 1;
     transition: .3s;
     border-radius: 10px;
@@ -41,9 +41,9 @@
 
 .arrow-right {
     position: absolute;
-    top: 45%;
-    right: 360px;
-    font-size: 3rem;
+    top: 35%;
+    right: 410px;
+    font-size: 3.5rem;
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -51,9 +51,9 @@
   
   .arrow-left {
     position: absolute;
-    top: 45%;
-    left: 360px;
-    font-size: 3rem;
+    top: 35%;
+    left: 410px;
+    font-size: 3.5rem;
     z-index: 10;
     cursor: pointer;
     user-select: none;

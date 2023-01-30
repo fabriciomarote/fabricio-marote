@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="text-footer">
                     <p className="col-sm">
-                       {"Todos los derechos reservados."} &copy; {new Date().getFullYear()}  {"| Fabricio Marote"} 
+                       {"Todos los derechos reservados"} &copy; {new Date().getFullYear()}  {"| Fabricio Marote"} 
                     </p>
                 </div>
             </div>

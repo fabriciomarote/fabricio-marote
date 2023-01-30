@@ -63,7 +63,7 @@ const Project = () => {
                                 <>
                                     <IoIosArrowDropleftCircle className='arrow-left' onClick={prevProject} />
                                     <IoIosArrowDroprightCircle className='arrow-right' onClick={nextProject} />                                
-                                    <img alt="imagen" className="p-image" src={image} onClick={() => setStateModal(!stateModal)} />
+                                    <img alt="imagen" className="p-image wow animate__animated animate__fadeIn" src={image} onClick={() => setStateModal(!stateModal)} />
                                     <Modal image={image} state={stateModal} setState={setStateModal} />
                                 </>
                                 )}
@@ -108,7 +108,7 @@ const Project = () => {
                     <NavBar theme={theme} setTheme={setTheme} />
             </div> 
             <div className="project-container" data-theme={theme}>
-                <div className="box-project">    
+                <div className="box-project wow animate__animated animate__zoomIn">    
                     <p className="title-project">{project.title}</p>
                     <div className="images-container">
                         {imagesByProject()} 
