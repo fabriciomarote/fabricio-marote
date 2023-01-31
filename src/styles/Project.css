@@ -41,7 +41,7 @@
 
 .arrow-right {
     position: absolute;
-    top: 35%;
+    top: 36%;
     right: 410px;
     font-size: 3.5rem;
     z-index: 10;
@@ -51,7 +51,7 @@
   
   .arrow-left {
     position: absolute;
-    top: 35%;
+    top: 36%;
     left: 410px;
     font-size: 3.5rem;
     z-index: 10;
