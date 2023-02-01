@@ -25,19 +25,18 @@ const Modal = ({image, state, setState}) => {
 export default Modal;
 
   const Overlay = styled.div`
-    width: 100vw;
+    min-width: 99.3vw;
     height: 100vh;
     position: fixed;
-    margin: 0;
-    padding: 0;
     top:0;
     left:0;
     background: rgba(0,0,0);     
     display: flex;
-    justify-content: center;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: center;  
+    margin-top:-15px;
+    margin-left:-83px;  
   `;
 
   const ContenedorModal = styled.div`

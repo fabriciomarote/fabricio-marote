@@ -87,7 +87,7 @@ const projects = [
       link2: "https://github.com/fabriciomarote/RottenTomatoes-api-web",
       title: "Rotten Tomatoes",
       techs: ["Kotlin", "Javalin", "HTML", "CSS", "React.js", "Bootstrap"],
-      text: "Es una pagina web donde se puede visualizar información sobre peliculas. Hay que registrarse y loguearse para poder criticarlas. Realizamos una Api utilizando un dominio provisto por la catedra y posteriormente consumiamos para poder realizar el front. Fue desarrollado en el marco de un proyecto en la Universidad.",
+      text: "Es una pagina web donde se puede visualizar información sobre peliculas. Hay que registrarse y loguearse para poder criticarlas. Se realizó una Api utilizando un dominio provisto por la catedra y posteriormente consumiamos para poder realizar el front.",
       type: "Fullstack",
     },
     {
@@ -98,7 +98,7 @@ const projects = [
       link2: "https://github.com/fabriciomarote/Turnero",
       title: "Turnero",
       techs: ["Kotlin", "Spring Boot", "MySQL", "HTML", "CSS", "React.js", "Bootstrap"],
-      text: "Es una web con sistemas de turnos medicos donde se pueden sacar turnos para diferentes especialidades en diferentes hospitales registrados, además como funcionalidad tiene para registrarse, loguearse, edición de perfil y cancelar los turnos. Se trabajó con metodologías ágiles a través de SCRUM. Fue desarrollado en el marco de un proyecto en la Universidad.",
+      text: "Es una web con sistemas de turnos medicos donde se pueden sacar turnos para diferentes especialidades en diferentes hospitales registrados, además como funcionalidad tiene para registrarse, loguearse, edición de perfil y cancelar los turnos. Se trabajó con metodologías ágiles a través de SCRUM.",
       type: "Fullstack",
     },
     {
@@ -109,7 +109,7 @@ const projects = [
       link2: "https://github.com/fabriciomarote/Ubermen",
       title: "Ubermen",
       techs: ["Kotlin", "Spring Boot", "JDBC", "Hibernate", "MySQL", "Neo4j", "MongoDB", "HTML", "CSS", "React.js", "Bootstrap"],
-      text: "Es una API que simula a la aplicacion Uber, donde se puede agregar, modificar y eliminar, distintos tipos de personajes y escenarios utilizando varias bases de datos. Tiene además la funcionalidad para poder patrullar y encontrar diferentes escenarios para poder completar conflictos y superarlos cumpliendo distintos requisitos, enfrentarse contra villanos y poder mutar sus poderes. Fue desarrollado en el marco de un proyecto en la Universidad.",
+      text: "Es una API que simula a la aplicacion Uber, donde se puede agregar, modificar y eliminar, distintos tipos de personajes y escenarios utilizando varias bases de datos. Tiene además la funcionalidad para poder patrullar y encontrar diferentes escenarios para poder completar conflictos y superarlos cumpliendo distintos requisitos, enfrentarse contra villanos y poder mutar sus poderes.",
       type: "Backend",
     },
     {
@@ -120,7 +120,7 @@ const projects = [
       link2: "https://github.com/fabriciomarote/UNQfy",
       title: "Unqfy",
       techs: ["Javascript", "Express", "Node.js"],
-      text: "Es una API donde se puede agregar y borrar artistas, albumes y canciones, además agregar playlist y reproducir las canciones.",
+      text: "Es una API similar a Spotify donde se puede agregar y borrar artistas, albumes y canciones, además agregar playlist y reproducir las canciones.",
       type: "Backend",
     },
   ];
