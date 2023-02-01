@@ -248,8 +248,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0px;
-    margin: 0px;
+    height: 12vh;
   }
   .nav-header {
     display: flex;
@@ -358,7 +357,7 @@
   }
 }
 
-@media (max-height: 600px) and (max-width: 400px) {
+@media (max-height: 667px) and (max-width: 375px) {
   .navbar-container {
     width: 100%;
     height: 12vh;
@@ -400,6 +399,17 @@
     overflow-y: hidden;
     overflow-x: hidden;
     transition: all .5s;
+  }
+}
+
+@media (max-height: 568px) and (max-width: 320px) {
+  .navbar-container {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 13vh;
   }
 }
 

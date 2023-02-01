@@ -149,8 +149,16 @@
     .about-container {
         min-width:99vw;
         height: 100vh;
-        padding-top: 0px;
     }
+    .body-about {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      background-color: yellowgreen;
+      margin-bottom: 200px;
+  }
 }
 
 @media (max-width: 1279px) and (min-width: 720px) {

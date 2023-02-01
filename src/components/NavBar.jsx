@@ -13,8 +13,8 @@ const Navbar = ( props ) => {
     }
 
     return (
-            <div className="navbar-container" data-theme={theme}>
-                <div className="nav">
+            <div className="navbar-container col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" data-theme={theme}>
+                <div className="nav col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <input type="checkbox" id="nav-check"/>
                     <div className="nav-header">
                         <div className="box-logo">  
@@ -34,7 +34,7 @@ const Navbar = ( props ) => {
                             <div></div>
                         </label>
                     </div>
-                    <div className="nav-links"> 
+                    <div className="nav-links "> 
                         <a href="/#inicio" className="btn-btn hvr-underline-from-left" >Inicio</a>
                         <a href="/#sobreMi" className="btn-btn hvr-underline-from-left" >Sobre mí</a>
                         <a href="/#habilidades" className="btn-btn hvr-underline-from-left" >Habilidades</a>
