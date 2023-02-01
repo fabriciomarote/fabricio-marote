@@ -18,6 +18,7 @@
     width: 90%;
     border-radius: 20px;
     padding: 0px;
+    margin: 0px;
 }
 
 .images-container {
@@ -27,7 +28,7 @@
 }
 
 .p-image {
-    margin-top: 50px;
+    margin-top: 10px;
     height: 320px;
     flex: 1;
     transition: .3s;
@@ -42,7 +43,7 @@
 
 .arrow-right {
     position: absolute;
-    top: 40%;
+    top: 32%;
     right: 370px;
     font-size: 3.5rem;
     z-index: 10;
@@ -52,7 +53,7 @@
   
   .arrow-left {
     position: absolute;
-    top: 40%;
+    top: 32%;
     left: 370px;
     font-size: 3.5rem;
     z-index: 10;
@@ -74,6 +75,7 @@
     font-weight: 700;
     text-transform: uppercase;
     color: var(--text-primary);
+    margin-top: 0px;
 }
 
 .text-project {

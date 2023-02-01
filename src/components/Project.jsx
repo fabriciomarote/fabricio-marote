@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { FaGithub, FaPager } from "react-icons/fa";
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from 'react-icons/io';
 import projects from "../data/Projects.js";
-import NavBar from '../components/NavBar.jsx';
+import NavBar2 from '../components/Navbar2.jsx';
 import useLocalStorage from 'use-local-storage';
 import Modal from "./Modal.jsx";
 import '../styles/Project.css';
@@ -63,7 +63,7 @@ const Project = () => {
                                 <>
                                     <IoIosArrowDropleftCircle className='arrow-left' onClick={prevProject} />
                                     <IoIosArrowDroprightCircle className='arrow-right' onClick={nextProject} />                                
-                                    <img alt="imagen" className="p-image wow animate__animated animate__fadeIn" src={image} onClick={() => setStateModal(!stateModal)} />
+                                    <img alt="imagen" className="p-image wow animate__animated animate__fadeIn" src={image} /*onClick={() => setStateModal(!stateModal)}*/ />
                                     <Modal image={image} state={stateModal} setState={setStateModal} />
                                 </>
                                 )}
@@ -105,7 +105,7 @@ const Project = () => {
     return (
         <>
             <div className="navbar">
-                    <NavBar theme={theme} setTheme={setTheme} />
+                    <NavBar2 theme={theme} setTheme={setTheme} />
             </div> 
             <div className="project-container" data-theme={theme}>
                 <div className="box-project wow animate__animated animate__zoomIn">    

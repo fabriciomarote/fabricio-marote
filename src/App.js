@@ -9,11 +9,11 @@ function App() {
   return (
      <> 
       <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<App2/>} />
-        <Route path="/projects/:idProject" element={<Project/>} />
-      </Routes>
-    </BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<App2/>} />
+          <Route path="/projects/:idProject" element={<Project/>} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };
