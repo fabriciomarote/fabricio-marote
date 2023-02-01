@@ -26,7 +26,7 @@ export default Modal;
 
   const Overlay = styled.div`
     min-width: 99.3vw;
-    height: 100vh;
+    min-height: 100vh;
     position: fixed;
     top:0;
     left:0;
@@ -35,8 +35,8 @@ export default Modal;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top:-15px;
-    margin-left:-83px;  
+    margin-top:-4px;
+    margin-left:-82px;  
   `;
 
   const ContenedorModal = styled.div`
@@ -54,9 +54,9 @@ export default Modal;
   const BotonCerrar = styled.div`
     position: absolute;
     top: 10px;
-    right: 30px;
-    width: 20px;
-    height: 20px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
     border: none;
     background #f2f2f2;
     cursor: pointer;

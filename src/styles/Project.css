@@ -42,7 +42,7 @@
 
 .arrow-right {
     position: absolute;
-    top: 38%;
+    top: 40%;
     right: 370px;
     font-size: 3.5rem;
     z-index: 10;
@@ -52,7 +52,7 @@
   
   .arrow-left {
     position: absolute;
-    top: 38%;
+    top: 40%;
     left: 370px;
     font-size: 3.5rem;
     z-index: 10;
