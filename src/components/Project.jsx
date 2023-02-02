@@ -63,8 +63,7 @@ const Project = () => {
                                 <>
                                     <IoIosArrowDropleftCircle className='arrow-left' onClick={prevProject} />
                                     <IoIosArrowDroprightCircle className='arrow-right' onClick={nextProject} />                                
-                                    <img alt="imagen" className="p-image wow animate__animated animate__fadeIn" src={image} /*onClick={() => setStateModal(!stateModal)}*/ />
-                                    <Modal image={image} state={stateModal} setState={setStateModal} />
+                                    <img alt="imagen" className="p-image wow animate__animated animate__fadeIn" src={image} />
                                 </>
                                 )}
                             </div>
