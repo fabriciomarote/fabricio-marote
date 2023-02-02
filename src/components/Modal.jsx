@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components';
 import { IoIosClose } from "react-icons/io";
 
@@ -12,9 +12,7 @@ const Modal = ({image, state, setState}) => {
             <BotonCerrar onClick={() => setState(!state)}>
               <IoIosClose/>
             </BotonCerrar> 
-            <Contenido>
-              <img alt="imagen" className="image-modal" src={image}/>
-            </Contenido>
+            <img alt="imagen" className="image-modal" src={image}/>
           </ContenedorModal>
         </Overlay>
       }
@@ -24,20 +22,18 @@ const Modal = ({image, state, setState}) => {
 
 export default Modal;
 
-  const Overlay = styled.div`
-    min-width: 99.3vw;
-    min-height: 100vh;
-    position: fixed;
-    top:0;
-    left:0;
-    background: rgba(0,0,0);     
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top:-4px;
-    margin-left:-82px;  
-  `;
+const Overlay = styled.div`
+width: 100vw;
+height: 100vh;
+position: fixed;
+top:0;
+left:0;
+background: rgba(0,0,0,.9);     
+padding: 40px;
+display: flex;
+align-items: center;
+justify-content: center;  
+`;
 
   const ContenedorModal = styled.div`
     width: 1000px;
@@ -45,10 +41,6 @@ export default Modal;
     position: relative;
     border-radius:0px;
     padding: 0px;
-    @media (max-width:600px) {
-      height: 200px;
-      width: 550px;
-    }
   `;
 
   const BotonCerrar = styled.div`
@@ -66,13 +58,5 @@ export default Modal;
     svg {
       width: 100%;
       height: 100%;
-    }
-
-    &:hover {
-    }
-  `;
-
-  const Contenido = styled.div`
-    @media (max-width:600px) {
     }
   `;

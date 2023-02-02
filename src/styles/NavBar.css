@@ -6,6 +6,8 @@
   font-family: 'Arial Narrow Bold', sans-serif;
   background-color: var(--background-navbar);
   transition: all .5s;
+  position: fixed;
+  z-index: 10;
 }
 
 .box-logo {
