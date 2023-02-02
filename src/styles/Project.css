@@ -47,7 +47,7 @@
 
 .arrow-right {
     position: absolute;
-    top: 32%;
+    top: 37%;
     right: 370px;
     font-size: 3.5rem;
     z-index: 10;
@@ -57,7 +57,7 @@
   
   .arrow-left {
     position: absolute;
-    top: 32%;
+    top: 37%;
     left: 370px;
     font-size: 3.5rem;
     z-index: 10;
@@ -74,7 +74,7 @@
     font-weight: 700;
     text-transform: uppercase;
     color: var(--text-primary);
-    margin-top: 0px;
+    margin-top: 50px;
 }
 
 .text-project {
