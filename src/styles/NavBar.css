@@ -227,7 +227,7 @@
     cursor: pointer;
   }
   .nav > .nav-btn2{
-     display: none;
+    display: none;
   }
   .nav > .nav-btn > label > div {
     display: block;
@@ -236,6 +236,7 @@
     border-top: 5px solid var(--hover);
     transition: all .5s;
     transform-origin: left;
+    background: var(--text-primary);
   }
   .nav-check:hover div:first-child {
     transform: rotate(55deg);
@@ -248,43 +249,43 @@
   }
   .nav > .nav-links {
     position: absolute;
-    display: flex;
+    display: grid;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    gap: 0rem;
     width: 100%;
-    transition: all 0.15s ease-in;
-    overflow-y: hidden;
+    height: 100%;
+    padding-top: 0px;
+    transition: all 0.3s ease-in;
     overflow-x: hidden;
-    top: 80px;
+    top: 85px;
     left: 0px;
     background-color: var(--background-navbar);
-    transition: all .5s;
+    transition: all .3s;
     z-index: 10;
   }
   .nav > .nav-links > a  {
     width: 100%;
     font-size: 30px;
     text-decoration: none;
-    transition: all .5s;
+    transition: all .3s;
   }
   .nav > .nav-links > a:hover {
     transform: scale(1.1);
     color: #B00000; 
   }
   .nav > #nav-check:active ~ .nav-links {
-    height: 100%;
+    width: 100%;
     transition: all .5s;
   }
   .nav > #nav-check:not(:active) ~ .nav-links {
-    height: 0px;
-    transition: all .5s;
+    width: 0px;
+    transition: all .3s;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 90px);
-    overflow-y: hidden;
+    height: calc(85% - 0px);
+    width: calc(100% - 0px);
     overflow-x: hidden;
+    overflow-y: hidden;
     transition: all .5s;
   }
   .navbar-container {
