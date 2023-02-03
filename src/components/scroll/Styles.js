@@ -26,10 +26,10 @@ export const Button = styled.div`
       top:79%;
       font-size: 5rem;
    }
-   @media (max-width: 320px) and (max-height: 568px) {
+   @media only screen and (min-width:0px) and (max-width:480px){
       width: 100%;
-      left: 78%;
-      top:78%;
+      left: 80%;
+      top:80%;
       font-size: 4rem;
    }
    @media (max-height: 320px) and (max-width: 568px) and (orientation: landscape) {
