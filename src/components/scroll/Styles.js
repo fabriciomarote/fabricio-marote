@@ -34,8 +34,8 @@ export const Button = styled.div`
    }
    @media only screen and (min-width:0px) and (max-width:700px) and (orientation: landscape) { 
       width: 100%;
-      left: 85%;
+      left: 88%;
       top:60%;
-      font-size: 4.5rem;
+      font-size: 4rem;
    }
 `

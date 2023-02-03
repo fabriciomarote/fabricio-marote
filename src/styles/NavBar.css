@@ -255,12 +255,11 @@
     width: 100%;
     height: 100%;
     padding-top: 0px;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
     overflow-x: hidden;
     top: 85px;
     left: 0px;
     background-color: var(--background-navbar);
-    transition: all .3s;
     z-index: 10;
   }
   .nav > .nav-links > a  {
@@ -282,7 +281,7 @@
     transition: all .3s;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(95% - 0px);
+    height: calc(85% - 0px);
     width: calc(100% - 0px);
     overflow-x: hidden;
     overflow-y: hidden;
@@ -381,7 +380,7 @@
     transition: all 0.15s ease-in;
     overflow-y: hidden;
     overflow-x: hidden;
-    top: 70px;
+    top: 60px;
     left: 0px;
     background-color: var(--background-navbar);
     transition: all .5s;
@@ -406,7 +405,7 @@
     transition: all .5s;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(90vh - 30px);
+    height: calc(70vh - 0px);
     overflow-y: hidden;
     overflow-x: hidden;
     transition: all .5s;

@@ -270,12 +270,12 @@
 
 @media only screen and (min-width:0px) and (max-width:360px) {
   .arrow-right {
-    top: 28%;
+    top: 26%;
     right: 20px;
     font-size: 2rem;
   }
   .arrow-left {
-    top: 28%;
+    top: 26%;
     left: 20px;
     font-size: 2rem;
   }
