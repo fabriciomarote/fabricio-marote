@@ -252,7 +252,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
     width: 100%;
     transition: all 0.15s ease-in;
     overflow-y: hidden;
@@ -265,7 +265,7 @@
   }
   .nav > .nav-links > a  {
     width: 100%;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: none;
     transition: all .5s;
   }
@@ -282,7 +282,7 @@
     transition: all .5s;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 40px);
+    height: calc(100vh - 90px);
     overflow-y: hidden;
     overflow-x: hidden;
     transition: all .5s;
