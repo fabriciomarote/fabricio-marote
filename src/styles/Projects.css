@@ -104,23 +104,19 @@
 }
 
 .right-arrow {
-    position: absolute;
-    top: 45%;
     right: -20px;
-    font-size: 3rem;
-    cursor: pointer;
 }
   
 .left-arrow {
-    position: absolute;
-    top: 45%;
     left: -20px;
-    font-size: 3rem;
-    cursor: pointer;
 }
 
 .right-arrow, .left-arrow {
     color: var(--icon);
+    font-size: 3rem;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
   }
 
 @media (min-width: 1200px) {
@@ -175,10 +171,10 @@
         margin-bottom: 0px;
     }
     .right-arrow {
-        right: -20px;
+        right: 0px;
     }
     .left-arrow {
-        left: -20px;
+        left: 0px;
     }
     .right-arrow, .left-arrow {
         top: 40%;
@@ -194,13 +190,15 @@
 @media only screen and (min-width:0px) and (max-width:700px) and (orientation: landscape) {
     .projects-box-container {
         width:100%;
-        display: grid;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .buttons-box {
         display: flex;
         margin-bottom: 20px;
+        width: 100%;
      }
      .buttons {
          max-width: 120px;
@@ -211,8 +209,8 @@
         width: 100%;
     }
     .box-projects {
-        margin-bottom: 100px;
-        width: 80%;
+        margin-bottom: 150px;
+        width: 70%;
     }
     .right-arrow {
         right: -20px;
@@ -221,7 +219,7 @@
         left: -20px;
     }
     .right-arrow, .left-arrow {
-        top: 42%;
+        top: 35%;
         color: white;
         font-size: 4rem;
         z-index: 10;
