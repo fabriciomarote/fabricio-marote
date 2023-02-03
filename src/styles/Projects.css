@@ -116,7 +116,6 @@
     top: 45%;
     left: -20px;
     font-size: 3rem;
-
     cursor: pointer;
 }
 
@@ -145,7 +144,7 @@
 @media only screen and (min-width:0px) and (max-width:480px){
     .projects-box-container {
         width:100%;
-        min-height: 90vh;
+        min-height: 100vh;
         display: grid;
         justify-content: center;
         align-items: center;
@@ -176,23 +175,23 @@
         margin-bottom: 0px;
     }
     .right-arrow {
-        top: 40%;
-        right: -40px;
-        color: var(--text-primary);
-        font-size: 2rem;
+        right: -20px;
     }
     .left-arrow {
-        top: 40%;
-        left: -40px;
-        color: var(--text-primary);
-        font-size: 2rem;
+        left: -20px;
     }
+    .right-arrow, .left-arrow {
+        top: 40%;
+        color: white;
+        font-size: 3rem;
+        z-index: 10;
+    } 
     .right-arrow:hover, .left-arrow:hover {
         color: var(--icon);
     } 
 }
 
-@media (max-height: 320px) and (max-width: 568px) and (orientation: landscape) {
+@media only screen and (min-width:0px) and (max-width:700px) and (orientation: landscape) {
     .buttons-box {
         display: flex;
         margin-bottom: 20px;
@@ -200,7 +199,7 @@
      .buttons {
          max-width: 120px;
          height: 40px;
-         font-size: 15px;
+         font-size: 17px;
      }
     .box-home-2 {
         width: 100%;
@@ -210,15 +209,17 @@
         width: 80%;
     }
     .right-arrow {
-        top: 40%;
-        right: -70px;
-        color: var(--text-primary);
+        right: -20px;
     }
     .left-arrow {
-        top: 40%;
-        left: -70px;
-        color: var(--text-primary);
+        left: -20px;
     }
+    .right-arrow, .left-arrow {
+        top: 42%;
+        color: white;
+        font-size: 4rem;
+        z-index: 10;
+    } 
     .right-arrow:hover, .left-arrow:hover {
         color: var(--icon);
     }

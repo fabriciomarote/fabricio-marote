@@ -282,7 +282,7 @@
     transition: all .3s;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(85% - 0px);
+    height: calc(95% - 0px);
     width: calc(100% - 0px);
     overflow-x: hidden;
     overflow-y: hidden;
@@ -310,7 +310,7 @@
   }
 }
 
-@media (max-height: 320px) and (max-width: 568px) and (orientation: landscape) {
+@media only screen and (min-width:0px) and (max-width:700px) and (orientation: landscape) {
   .navbar-container {
     display: flex;
     flex-direction: row;  
@@ -329,12 +329,18 @@
   .nav > .nav-btn {
     display: flex;
     position: absolute;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    right: -30px;
-    top: 10px;
+    padding-right: 20px;
+    padding-top: 3px;
+    right: 0px;
+    top: 0px;
     width: 40%;
+    height: 20%;
     gap: 1.5rem;
+  }
+  .nav > .nav-btn2{
+    display: none;
   }
   .nav > .nav-btn > label {
     display: flex;
@@ -353,6 +359,7 @@
     border-top: 5px solid var(--hover);
     transition: all .5s;
     transform-origin: left;
+    background: var(--text-primary);
   }
   .nav-check:hover div:first-child {
     transform: rotate(45deg);
@@ -365,19 +372,20 @@
   }
   .nav > .nav-links {
     position: absolute;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+  
     justify-content: center;
     align-items: center;
-    gap: .8rem;
+    gap: 0rem;
     width: 100%;
     transition: all 0.15s ease-in;
     overflow-y: hidden;
     overflow-x: hidden;
-    top: 60px;
+    top: 70px;
     left: 0px;
     background-color: var(--background-navbar);
     transition: all .5s;
+    z-index: 10;
   }
   .nav > .nav-links > a  {
     width: 100%;
@@ -398,7 +406,7 @@
     transition: all .5s;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 40px);
+    height: calc(90vh - 30px);
     overflow-y: hidden;
     overflow-x: hidden;
     transition: all .5s;

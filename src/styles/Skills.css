@@ -121,7 +121,7 @@
     }
 }
 
-@media (max-height: 320px) and (max-width: 568px) and (orientation: landscape) {
+@media only screen and (min-width:0px) and (max-width:700px) and (orientation: landscape) {
     .skills-container {
         width: 100%;
         align-items: center;
@@ -129,7 +129,7 @@
         justify-content: center; 
     }
     .icon {
-        max-width: 120px;
+        max-width: 150px;
         height: 80px;
         margin: 30px;
     }
