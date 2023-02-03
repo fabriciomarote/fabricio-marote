@@ -30,7 +30,9 @@
     font-weight: 600;
     border-radius: 1px;
     border-width: 3px;
+    border-style:groove;
     margin: 40px;
+    cursor: pointer;
 }
 
 /* Rectangle Out */

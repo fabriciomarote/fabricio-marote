@@ -26,29 +26,16 @@ export const Button = styled.div`
       top:79%;
       font-size: 5rem;
    }
-   @media (max-height: 1024px) and (max-width: 768px) {
+   @media (max-width: 320px) and (max-height: 568px) {
       width: 100%;
-      left: 91%;
-      top:83%;
-      font-size: 4rem;
-   }
-   @media (max-width: 1024px) and (max-height: 768px) and (orientation: landscape) {
-      width: 100%;
-      left: 90%;
+      left: 78%;
       top:78%;
-      font-size: 6rem;
-   }
-   @media (max-width:600px) {
-      left: 80%;
-      top:85%;
       font-size: 4rem;
    }
-   @media (max-height: 600px) and (max-width: 400px) {
-      left: 81%;
-   }
-
-   @media (max-height: 400px) and (max-width: 600px) {
-      left: 88%;
-      top:78%; 
+   @media (max-height: 320px) and (max-width: 568px) and (orientation: landscape) {
+      width: 100%;
+      left: 80%;
+      top:70%;
+      font-size: 4.5rem;
    }
 `

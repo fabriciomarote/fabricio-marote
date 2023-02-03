@@ -1,26 +1,22 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { FaGithub, FaPager } from "react-icons/fa";
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from 'react-icons/io';
 import projects from "../data/Projects.js";
 import NavBar2 from '../components/Navbar2.jsx';
 import useLocalStorage from 'use-local-storage';
-import Modal from "./Modal.jsx";
 import '../styles/Project.css';
 
 const Project = () => {
 
     const { idProject } = useParams();
+    const navigate = useNavigate();
 
     const [project, setProject] = useState([]);
     const [techsProject, setTechsProject] = useState([]);
     const [imagesProject, setImagesProject] = useState([]);
-
-    const [stateModal, setStateModal] = useState(false);
-
     const [current, setCurrent] = useState(0);
     const length = imagesProject != undefined ? imagesProject.length : "";
-
 
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
@@ -42,8 +38,8 @@ const Project = () => {
             if (project.id == id) {
                 pj = project;
             }    
-            }); 
-        return pj
+        });        
+        return pj == undefined ? navigate("/invalid-route") : pj
     };
 
     useEffect(() => {
