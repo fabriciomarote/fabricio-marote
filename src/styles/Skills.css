@@ -86,6 +86,41 @@
     }
 }
 
+@media only screen and (min-width:481px) and (max-width:720px) {
+    .skills-container {
+        min-height: 100vh;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box-icons {
+        display: grid;
+        justify-content: center; 
+        align-items: center;
+        width: 90%;
+        gap: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 50px;
+    }
+    .icon {
+        overflow: hidden;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+        color: rgb(176, 0, 0);
+        max-width: 200px;
+        height: 80px;
+        margin: 0px;
+    }
+    .icon-skill {
+        padding-top: 5px;
+    }
+    .title-icon {
+        font-size: 20px;
+    }
+}
+
 @media only screen and (min-width:0px) and (max-width:480px){
     .skills-container {
         min-height: 100vh;

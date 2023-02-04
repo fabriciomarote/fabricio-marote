@@ -24,10 +24,20 @@
     }
   }
 
+  @media only screen and (min-width:481px) and (max-width:720px) {
+    .footer-container {
+      width:100vw;
+    }
+    .col-sm{
+      font-size:13px;
+      width: 100%;
+    }
+  }
+
+
   @media only screen and (min-width:0px) and (max-width:480px){
     .footer-container {
       width:100vw;
-      height: 8vh;
     }
     .col-sm{
       font-size:9px;

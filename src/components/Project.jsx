@@ -57,8 +57,8 @@ const Project = () => {
                             <div className={index === current ? 'slide active' : 'slide'} key={index}>
                                 {index === current && ( 
                                 <>
-                                    <IoIosArrowDropleftCircle className='arrow-left' onClick={prevProject} />
-                                    <IoIosArrowDroprightCircle className='arrow-right' onClick={nextProject} />                                
+                                    { current > 0 ? <IoIosArrowDropleftCircle className='arrow-left' onClick={prevProject} /> : <></> }
+                                    { current !== length -1 ? <IoIosArrowDroprightCircle className='arrow-right' onClick={nextProject} /> : <></>}                                    
                                     <img alt="imagen" className="p-image wow animate__animated animate__fadeIn" src={image} />
                                 </>
                                 )}
@@ -96,6 +96,9 @@ const Project = () => {
             );
         }
     }
+
+    console.log( "current" + current)
+    console.log(length)
 
     return (
         <>

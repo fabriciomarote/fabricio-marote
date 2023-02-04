@@ -40,6 +40,20 @@
   }
 }
 
+@media only screen and (min-width:481px) and (max-width:720px) {
+  .home-container {
+    min-width: 100vw;
+    height: 100vh;
+    background-position: center center;
+  }
+  .box-home {
+    font-size:35px;
+  }
+  .animate__lightSpeedInLeft, .animate__lightSpeedInRight {
+    --animate-duration: 2s;
+  } 
+}
+
 @media only screen and (min-width:0px) and (max-width:480px){
   .home-container {
     min-width: 100vw;

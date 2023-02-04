@@ -24,7 +24,7 @@ const Navbar = ( props ) => {
                     <div className="nav-btn">
                         <div className="theme-1">
                             <div className='icon-theme' onClick={() => changeMode()}>
-                                { theme === "dark" ? <BsFillMoonFill className='icon-dark' size={25}/> : <BsFillSunFill className='icon-light' size={25}/>}
+                                { theme === "dark" ? <BsFillMoonFill className='icon-dark' size={35}/> : <BsFillSunFill className='icon-light' size={35}/>}
                             </div>
                         </div>
 
@@ -42,7 +42,7 @@ const Navbar = ( props ) => {
                         <a href="/#contacto" className="btn-btn hvr-underline-from-left"> Contacto</a> 
                         <div className="theme-2">
                             <div className='icon-theme' onClick={() => changeMode()}>
-                                { theme === "dark" ? <BsFillMoonFill  className='icon-dark' size={25}/> : <BsFillSunFill className='icon-light' size={25}/>}
+                                { theme === "dark" ? <BsFillMoonFill  className='icon-dark' size={35}/> : <BsFillSunFill className='icon-light' size={35}/>}
                             </div>
                         </div>
                     </div>
