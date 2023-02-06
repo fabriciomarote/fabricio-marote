@@ -30,17 +30,17 @@ const Project = () => {
     };
     
     const prevProject = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
+        setCurrent(current === 0 ? length - 1 : current - 1);
     };
 
     const projectById = (id) => {
-        let pj;
+        let proj;
         projects.find( project => {
             if (project.id == id) {
-                pj = project;
+                proj = project;
             }    
         });        
-        return pj == undefined ? navigate("/invalid-route") : pj
+        return proj == undefined ? navigate("/invalid-route") : proj
     };
 
     useEffect(() => {
@@ -53,7 +53,7 @@ const Project = () => {
         if (imagesProject != undefined) {
             return (
                 <>
-                    {imagesProject.map((image, index) => {
+                    { imagesProject.map((image, index) => {
                         return (
                             <div className={index === current ? 'slide active' : 'slide'} key={index}>
                                 { index === current && ( 

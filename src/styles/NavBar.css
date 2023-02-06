@@ -150,34 +150,6 @@
   }
 }
 
-@media (max-height: 1440) and (max-width: 2560px) and (min-width: 1921px) {
-
-}
-
-@media (max-height: 1080) and (max-width: 1920px) and (min-width: 1681px) {
-
-}
-
-@media (max-height: 1050) and (max-width: 1680px) and (min-width: 1441px) {
-
-}
-
-@media (max-height: 900) and (max-width: 1440px) and (min-width: 1025px) {
-
-}
-
-@media (max-height: 768) and (max-width: 1024px) and (min-width: 376px) {
-
-}
-
-@media (max-width: 320px) and (min-width: 374px){
-  
-}
-
-@media (max-height: 400px) and (max-width: 600px) and (orientation: landscape){
-
-}
-
 @media only screen and (min-width:481px) and (max-width:720px) {
   .navbar-container {
     display: flex;
@@ -324,7 +296,7 @@
     display: flex;
     position: absolute;
     flex-direction: row;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     right: 0px;
     top: 0px;
@@ -332,6 +304,7 @@
     height: 15vh;
     gap: 4rem;
     z-index: 10;
+    background: yellowgreen;
   }
   .nav > .nav-btn > label {
     display: flex;
@@ -412,6 +385,10 @@
     z-index: 10;
   }
   .theme-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .theme-2 {
     display: none;
   }
   .theme-3 {
@@ -441,11 +418,14 @@
     z-index: 10;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(440px - 0px);
+    height: calc(570px - 0px);
     width: calc(100% - 0px);
     overflow-x: hidden;
     overflow-y: hidden;
     transition: all .5s;
+  }
+  .theme-3 {
+    display: none;
   }
 }
 
@@ -457,6 +437,7 @@
     align-items: center;
     min-width: 100vw;
     height: 20vh;
+    background-color: var(--background-navbar);
   }
   .nav-header {
     display: flex;
@@ -464,6 +445,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
+    z-index: 10;
   }
   .nav > .nav-btn {
     display: flex;
@@ -477,6 +459,7 @@
     width: 40%;
     height: 20%;
     gap: 1.5rem;
+    z-index: 10;
   }
   .nav > .nav-btn2{
     display: none;
@@ -490,6 +473,7 @@
     border: 0;
     background: transparent;
     cursor: pointer;
+    z-index: 10;
   }
   .nav > .nav-btn > label > div {
     display: block;
@@ -512,7 +496,6 @@
   .nav > .nav-links {
     position: absolute;
     display: grid;
-  
     justify-content: center;
     align-items: center;
     gap: 0rem;
@@ -574,17 +557,5 @@
   }
 }
 
-
-
 @media (min-width: 1200px) {
 }
-
-@media (max-width: 1199px) and (min-width: 992px) {
-}
-
-@media (max-width: 991px) and (min-width: 768px) {
-}
-
-@media (max-width: 767px) {
-}
-

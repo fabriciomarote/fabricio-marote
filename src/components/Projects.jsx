@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState, useEffect } from 'react';
+import { MdArrowBackIosNew, MdArrowForwardIos } from 'react-icons/md';
 import projects from "../data/Projects.js";
 import ModelProject from './ModelProject.jsx';
-import { MdArrowBackIosNew, MdArrowForwardIos } from 'react-icons/md';
 import WOW from 'wowjs';
 import '../styles/Projects.css';
 
@@ -17,19 +17,19 @@ const Proyects = () => {
       };
     
     const prevProject = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
+        setCurrent(current === 0 ? length - 1 : current - 1);
     };
 
     const projectsBy = (type) => {
         let newProjects = [];
         projects.map((project, id) => project.type === type ? newProjects.push(project) : []); 
         return newProjects;
-    }
+    };
 
     const changeView = (type) => {
         setViewProjects(projectsBy(type));
         setCurrent(0);
-    }
+    };
 
     useEffect(() => {
         if (!Array.isArray(projects) || projects.length <= 0) {
@@ -73,6 +73,6 @@ const Proyects = () => {
             </div>
         </>
     );
-  }
+};
   
-  export default Proyects;
+export default Proyects;

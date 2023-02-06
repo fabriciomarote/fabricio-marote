@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './styles/App.css';
 import App2 from './components/App.jsx';
 import Project from './components/Project.jsx';
 import InvalidRoute from './components/InvalidRoute';
+import './styles/App.css';
 
 function App() {
 

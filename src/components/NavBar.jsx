@@ -10,7 +10,7 @@ const Navbar = ( props ) => {
     const changeMode = () => {
         let newTheme = theme === "light" ? "dark" : "light";
         setTheme(newTheme);
-    }
+    };
 
     return (
             <div className="navbar-container col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" data-theme={theme}>

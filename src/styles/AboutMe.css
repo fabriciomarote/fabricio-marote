@@ -1,159 +1,156 @@
 .about-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family:inherit;
-    color: var(--text-primary);
-    background: var(--background2);
-    transition: all .5s;
-    text-align: center;
-    z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:inherit;
+  color: var(--text-primary);
+  background: var(--background2);
+  transition: all .5s;
+  text-align: center;
+  z-index: 10;
 }
 .body-about {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 0px;
-    z-index: 5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0px;
+  z-index: 5;
 }
 .box-image {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
 }
 .foto {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    border-color: var(--background-navbar);
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border-color: var(--background-navbar);
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
 }
- 
 .text-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    width: 50%;
-    height: 100%;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 50%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
 }
- 
 .button-cv {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 200px;
-    height: 60px;
-    border-radius: 30px;
-    border: none;
-    margin: 5px;
-    font-size: 20px;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    transition: .3s ease all;
-    text-decoration: none;
-    color: #fff;
-    background-color: #B00000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  transition: .3s ease all;
+  text-decoration: none;
+  color: #fff;
+  background-color: #B00000;
 }
-
 .button-cv:hover {
-    background-color:#000;
-    color: #B00000; 
+  background-color:#000;
+  color: #B00000; 
 }
 
 /* Icon Hang */
 @-webkit-keyframes hvr-icon-hang {
-    0% {
-      -webkit-transform: translateY(6px);
-      transform: translateY(6px);
-    }
-    50% {
-      -webkit-transform: translateY(2px);
-      transform: translateY(2px);
-    }
-    100% {
-      -webkit-transform: translateY(6px);
-      transform: translateY(6px);
-    }
+  0% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
   }
-  @keyframes hvr-icon-hang {
-    0% {
-      -webkit-transform: translateY(6px);
-      transform: translateY(6px);
-    }
-    50% {
-      -webkit-transform: translateY(2px);
-      transform: translateY(2px);
-    }
-    100% {
-      -webkit-transform: translateY(6px);
-      transform: translateY(6px);
-    }
+  50% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
   }
-  @-webkit-keyframes hvr-icon-hang-sink {
-    100% {
-      -webkit-transform: translateY(6px);
-      transform: translateY(6px);
-    }
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
   }
-  @keyframes hvr-icon-hang-sink {
-    100% {
-      -webkit-transform: translateY(6px);
-      transform: translateY(6px);
-    }
+}
+@keyframes hvr-icon-hang {
+  0% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
   }
-  .hvr-icon-hang {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+  50% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
   }
-  .hvr-icon-hang .hvr-icon {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
   }
-  .hvr-icon-hang:hover .hvr-icon, .hvr-icon-hang:focus .hvr-icon, .hvr-icon-hang:active .hvr-icon {
-    -webkit-animation-name: hvr-icon-hang-sink, hvr-icon-hang;
-    animation-name: hvr-icon-hang-sink, hvr-icon-hang;
-    -webkit-animation-duration: .3s, 1.5s;
-    animation-duration: .3s, 1.5s;
-    -webkit-animation-delay: 0s, .3s;
-    animation-delay: 0s, .3s;
-    -webkit-animation-timing-function: ease-out, ease-in-out;
-    animation-timing-function: ease-out, ease-in-out;
-    -webkit-animation-iteration-count: 1, infinite;
-    animation-iteration-count: 1, infinite;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-direction: normal, alternate;
-    animation-direction: normal, alternate;
+}
+@-webkit-keyframes hvr-icon-hang-sink {
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
   }
+}
+@keyframes hvr-icon-hang-sink {
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+.hvr-icon-hang {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-icon-hang .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.hvr-icon-hang:hover .hvr-icon, .hvr-icon-hang:focus .hvr-icon, .hvr-icon-hang:active .hvr-icon {
+  -webkit-animation-name: hvr-icon-hang-sink, hvr-icon-hang;
+  animation-name: hvr-icon-hang-sink, hvr-icon-hang;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
 
 @media (min-width: 1200px) {
-    .about-container {
-        min-width:99vw;
-        height: 100vh;
-    }
-    .body-about {
-      display: flex;
-      align-items: center;
-      height: 100%;
-      margin: 0px;
-      padding: 0px;
-      margin-bottom: 100px;
+  .about-container {
+    min-width:99vw;
+    height: 100vh;
+  }
+  .body-about {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 100px;
   }
 }
 

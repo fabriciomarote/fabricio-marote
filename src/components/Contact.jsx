@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosPaper } from "react-icons/io"
 import { MdEmail } from "react-icons/md"
@@ -9,17 +9,6 @@ import '../styles/Contact.css';
 const Contact = ( props ) => {
 
     const { theme } = props;
-
-    const [data, setData] = useState({
-        name: "",
-        email: "",
-        asunto: "",
-        message: ""
-    });
-
-    const handleChange = name => event => {
-        setData(prevState => ({ ...prevState, [name]: event.target.value }));
-      };
 
     useEffect(() => {
         new WOW.WOW({
@@ -37,13 +26,10 @@ const Contact = ( props ) => {
                     <a href="mailto:fabricio.gm1993@gmail.com" className='button-contact hvr-sweep-to-right'><MdEmail size={30} className="icon-contact "/> fabricio.gm1993@gmail.com</a> 
                     <a href="https://www.linkedin.com/in/fabricio-marote/" className='button-contact hvr-sweep-to-right'><FaLinkedin size={30} className="icon-contact"/> /fabricio-marote</a> 
                     <a href="https://github.com/fabriciomarote" className='button-contact hvr-sweep-to-right'><FaGithub size={30} className="icon-contact"/> /fabriciomarote</a> 
-                </div>
-                <div className='box-cv animate__animated animate__pulse animate__infinite'>
-                    
                 </div> 
             </div>
         </>
     );
-  }
+  };
   
   export default Contact;

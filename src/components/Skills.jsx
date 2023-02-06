@@ -13,9 +13,9 @@ const Skills = () => {
       new WOW.WOW({
         live: false
       }).init();
-    }, [])
+    }, []);
   
-    return (
+   return (
       <>
          <a href="#skills" name='skills'/>
          <div className='skills-container'>
@@ -147,6 +147,6 @@ const Skills = () => {
          </div>
       </>
     );
-  }
+};
   
-  export default Skills;
+export default Skills;

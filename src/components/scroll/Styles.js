@@ -38,4 +38,4 @@ export const Button = styled.div`
       top:60%;
       font-size: 4rem;
    }
-`
+`;

@@ -77,7 +77,7 @@ const projects = [
       link2: "https://github.com/fabriciomarote/Piedra-papel-tijera-largarto-spock",
       title: "Piedra, Papel, Tijera, Lagarto y Spock",
       techs: ["HTML", "CSS", "React", "Bootstrap"],
-      text: "Es un juego que realicé en el marco de un proyecto en la Universidad. ",
+      text: "Es un juego que realicé en el marco de un proyecto en la Universidad. Es el clasico juego Piedra, Papel y Tijera con dos opciones mas agregadas, se puede jugar solo o de a dos jugadores.",
       type: "Frontend",
     },
     {
@@ -88,7 +88,7 @@ const projects = [
       link2: "https://github.com/fabriciomarote/RottenTomatoes-api-web",
       title: "Rotten Tomatoes",
       techs: ["Kotlin", "Javalin", "HTML", "CSS", "React.js", "Bootstrap"],
-      text: "Es una pagina web donde se puede visualizar información sobre peliculas. Hay que registrarse y loguearse para poder criticarlas. Se realizó una Api utilizando un dominio provisto por la catedra y posteriormente consumiamos para poder realizar el front.",
+      text: "Es una pagina web donde se puede visualizar información sobre peliculas. Hay que registrarse y loguearse para poder criticarlas. Se realizó una API utilizando un dominio provisto por la catedra y posteriormente consumiamos para poder realizar el front.",
       type: "Fullstack",
     },
     {

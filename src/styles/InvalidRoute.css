@@ -1,99 +1,94 @@
 .invalid {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--text-primary);
+  background: var(--background2);
+  height: 100vh;
+}
+.card-invalid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-invalid {
+  text-decoration: none;
+  height: 50px;
+  width: 170px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 1px;
+  border-width: 3px;
+  border-style:groove;
+  margin: 40px;
+  cursor: pointer;
+}
+/* Rectangle Out */
+.hvr-rectangle-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  background: var(--background);
+  color: var(--text-primary);
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-rectangle-out:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--icon);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
+  color: white;
+}
+.hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.error404 {
+  width: 300px;
+  height: 300px;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width:600px) {
+  .invalid {
+    display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: var(--text-primary);
-    background: var(--background2);
-    height: 100vh;
-}
-
-.card-invalid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.box-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn-invalid {
-    text-decoration: none;
-    height: 50px;
-    width: 170px;
-    font-size: 17px;
-    font-weight: 600;
-    border-radius: 1px;
-    border-width: 3px;
-    border-style:groove;
-    margin: 40px;
-    cursor: pointer;
-}
-
-/* Rectangle Out */
-.hvr-rectangle-out {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    background: var(--background);
-    color: var(--text-primary);
-    -webkit-transition-property: color;
-    transition-property: color;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    height: 90vh;
   }
-  .hvr-rectangle-out:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: var(--icon);
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
+  .error404 {
+    width: 300px;
+    height: 300px;
   }
-  .hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
-    color: white;
-  }
-  .hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-
-.error404 {
-   width: 300px;
-   height: 300px;
-   margin: 0px;
-   padding: 0px;
 }
-
-@media (max-width:600px) {
-    .invalid {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: var(--text-primary);
-        height: 90vh;
-    }
-    .error404 {
-        width: 300px;
-        height: 300px;
-     }
-  }

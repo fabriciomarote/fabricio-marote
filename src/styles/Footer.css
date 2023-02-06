@@ -1,56 +1,54 @@
+.footer-container {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  background-color: var(--background-navbar);
+  transition: all .5s;
+  z-index: 5;
+}
+.text-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  font-weight: 900;
+  z-index: 5;
+}
+
+@media (min-width: 1200px) {
   .footer-container {
-    display: flex;
-    position: absolute;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color: var(--text-primary);
-    background-color: var(--background-navbar);
-    transition: all .5s;
-    z-index: 5;
+    min-width:99vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
-  
-  .text-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-    font-weight: 900;
-    z-index: 5;
-  }
-  
-  @media (min-width: 1200px) {
-    .footer-container {
-      min-width:99vw;
-      padding-top: 5px;
-      padding-bottom: 5px;
-    }
-  }
+}
 
-  @media only screen and (min-width:481px) and (max-width:720px) {
-    .footer-container {
-      width:100vw;
-    }
-    .col-sm{
-      font-size:13px;
-      width: 100%;
-    }
+@media only screen and (min-width:481px) and (max-width:720px) {
+  .footer-container {
+    width:100vw;
   }
-
-
-  @media only screen and (min-width:0px) and (max-width:480px){
-    .footer-container {
-      width:100vw;
-    }
-    .col-sm{
-      font-size:9px;
-      width: 100%;
-    }
+  .col-sm{
+    font-size:13px;
+    width: 100%;
   }
+}
 
-  @media only screen and (min-width:0px) and (max-width:700px) and (orientation: landscape) { 
-    .col-sm{
-      font-size:15px;
-      width: 100%;
-    }
+@media only screen and (min-width:0px) and (max-width:480px){
+  .footer-container {
+    width:100vw;
   }
+  .col-sm{
+    font-size:9px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:0px) and (max-width:700px) and (orientation: landscape) { 
+  .col-sm{
+    font-size:15px;
+    width: 100%;
+  }
+}

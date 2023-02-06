@@ -9,14 +9,12 @@
     color: var(--text-primary);
     transition: all .5s;
 }
-
 .box-home-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 5;
 }
-
 .title-box {
     font-size: 50px;
     font-weight: 300;
@@ -26,7 +24,6 @@
     font-family:inherit;
     z-index: 5;
 }
-
 .buttons {
     display: flex;
     justify-content: space-evenly;
@@ -47,7 +44,6 @@
     color: var(--text-primary);
     background-color: #b0000000; 
 }
-
 .buttons-box {
     display: flex;
     flex-direction: row;
@@ -55,7 +51,6 @@
     align-items: center;
     z-index: 5;
 }
-
 /* Sweep To Top */
 .hvr-sweep-to-top {
     display: inline-block;
@@ -68,8 +63,8 @@
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-  }
-  .hvr-sweep-to-top:before {
+}
+.hvr-sweep-to-top:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -89,15 +84,14 @@
     transition-duration: 0.3s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-  }
-  .hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
+}
+.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
     color: white;
-  }
-  .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+}
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
-  }
-
+}
 .box-projects {
     position: relative;
     display: flex;
@@ -105,22 +99,19 @@
     align-items: center;
     margin: 10px;
 }
-
 .right-arrow {
     right: -20px;
 }
-  
 .left-arrow {
     left: -20px;
 }
-
 .right-arrow, .left-arrow {
     color: var(--icon);
     font-size: 3rem;
     cursor: pointer;
     position: absolute;
     top: 45%;
-  }
+}
 
 @media (min-width: 1200px) {
     .projects-box-container {
@@ -141,54 +132,54 @@
 }
 
 @media only screen and (min-width:481px) and (max-width:720px) {
-        .projects-box-container {
-            width:100%;
-            height: 180vh;
-            display: grid;
-            justify-content: center;
-            align-items: center;
-            margin-top: 0px;
-            padding-top: 0px;
-        }
-        .title-box {
-            font-size: 30px;
-            margin-top: 0px;
-        }
-        .buttons-box {
-           display: flex;
-           flex-direction: row;
-           margin-bottom: -100px;
-           margin-top: -150px;
-           width: 100%;
-        }
-        .buttons {
-            max-width: 200px;
-            height: 40px;
-            font-size: 13px;
-        }
-        .box-home-2 {
-            width: 100%;
-        }
-        .box-projects {
-            width: 80%;
-            margin-bottom: 0px;
-        }
-        .right-arrow {
-            right: -30px;
-        }
-        .left-arrow {
-            left: -30px;
-        }
-        .right-arrow, .left-arrow {
-            top: 42.5%;
-            color: white;
-            font-size: 3rem;
-            z-index: 10;
-        } 
-        .right-arrow:hover, .left-arrow:hover {
-            color: var(--icon);
-        } 
+    .projects-box-container {
+        width:100%;
+        height: 180vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        padding-top: 0px;
     }
+    .title-box {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    .buttons-box {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -100px;
+        margin-top: -150px;
+        width: 100%;
+    }
+    .buttons {
+        max-width: 200px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .box-home-2 {
+        width: 100%;
+    }
+    .box-projects {
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    .right-arrow {
+        right: -30px;
+    }
+    .left-arrow {
+        left: -30px;
+    }
+    .right-arrow, .left-arrow {
+        top: 42.5%;
+        color: white;
+        font-size: 3rem;
+        z-index: 10;
+    } 
+    .right-arrow:hover, .left-arrow:hover {
+        color: var(--icon);
+    } 
+}
 
 @media only screen and (min-width:0px) and (max-width:480px){
     .projects-box-container {

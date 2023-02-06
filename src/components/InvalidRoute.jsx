@@ -9,7 +9,7 @@ import '../styles/InvalidRoute.css'
     const navigate = useNavigate();
 
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+    const theme = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
 
     return (
         <div className='invalid' data-theme={theme}>
@@ -24,7 +24,7 @@ import '../styles/InvalidRoute.css'
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default InvalidRoute; 

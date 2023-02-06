@@ -5,11 +5,9 @@
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
     color: #fff;
 }
-
 .modelProject-container:hover .add-info {
     transform: translateY(0%);
 }
-
 .add-info {
     display: flex;
     flex-direction: column;
@@ -25,11 +23,9 @@
     background-color: rgba(0, 0, 0, 0.8);
     height: 100%;
 }
-
 .animate__flipInY {
     --animate-duration: 1.2s;
 }
-
 .title {
    font-size: 42px;
    font-weight: 650;
@@ -38,7 +34,6 @@
    text-transform: uppercase;
    -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
-
 .project-button {
     display: flex;
     justify-content: space-evenly;
@@ -59,7 +54,6 @@
     color: rgb(255, 255, 255);
     background-color: #07070700; 
 }
-
 .image-project {
     width: 100%;
     height: 100%;
