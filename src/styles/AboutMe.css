@@ -27,8 +27,8 @@
   height: 100%;
 }
 .foto {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   border-color: var(--background-navbar);
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
@@ -139,7 +139,7 @@
   animation-direction: normal, alternate;
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width:721px) and (max-width: 1024px) {
   .about-container {
     min-width:99vw;
     height: 100vh;
