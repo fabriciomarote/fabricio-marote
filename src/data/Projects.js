@@ -40,6 +40,7 @@ import Turnero12 from "../assets/img/projects/turnero12.png";
 import Turnero13 from "../assets/img/projects/turnero13.png";
 import Turnero14 from "../assets/img/projects/turnero14.png";
 import Turnero15 from "../assets/img/projects/turnero15.png";
+import Turnero16 from "../assets/img/projects/turnero16.png";
 import Unqfy from "../assets/img/projects/Unqfy.png"
 import Unqfy1 from "../assets/img/projects/Unqfy1.png"
 import Ubermen from "../assets/img/projects/Ubermen.png"
@@ -93,7 +94,7 @@ const projects = [
     {
       id: 5,
       image: Turnero,
-      images: [Turnero1, Turnero2, Turnero3, Turnero4, Turnero5, Turnero6, Turnero7, Turnero8, Turnero9, Turnero10, Turnero11, Turnero12, Turnero13, Turnero14, Turnero15], 
+      images: [Turnero1, Turnero2, Turnero3, Turnero4, Turnero5, Turnero6, Turnero7, Turnero8, Turnero9, Turnero10, Turnero11, Turnero12, Turnero13, Turnero14, Turnero15, Turnero16], 
       link1: null,
       link2: "https://github.com/fabriciomarote/Turnero",
       title: "Turnero",

@@ -7,7 +7,7 @@ const ModelProject = (props) => {
 
     return (
             <div className="modelProject-container wow animate__animated animate__flipInY animate__delay-0.5s">
-                <img alt="imagen" className="image-project1" src={project.image}></img>
+                <img alt="imagen" className="image-project" src={project.image}></img>
                 <div className="add-info">
                     <p className="title">{project.title}</p>
                     <a href={`/projects/${project.id}`} className='project-button'>Ver Proyecto</a>
