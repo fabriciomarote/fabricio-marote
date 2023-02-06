@@ -4,9 +4,11 @@
   justify-content: center;
   align-items: center;
   color: var(--text-primary);
+  /*
   background: linear-gradient(rgba(0, 0, 0, 0.901), rgba(0, 0, 0, 0.918)), url(../assets/img/fondos/background.jpg);
   background-size: cover;
   background-position: center center;
+  */
   height: 100vh;
   transition: all .5s;
 }
@@ -58,7 +60,7 @@
 @media only screen and (min-width:0px) and (max-width:480px){
   .home-container {
     min-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-position: center center;
   }
   .box-home {

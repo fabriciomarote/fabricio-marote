@@ -197,6 +197,12 @@
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
+#not-active { 
+  pointer-events: none; 
+  cursor: default; 
+  opacity: 0.3;
+} 
+
 @media only screen and (min-width:481px) and (max-width:720px) {
   .project-container {
     text-align: center;

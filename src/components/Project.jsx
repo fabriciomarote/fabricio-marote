@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from 'react-router-dom';
 import { FaGithub, FaPager } from "react-icons/fa";
@@ -26,7 +27,7 @@ const Project = () => {
 
     const nextProject = () => {
         setCurrent(current === length - 1 ? 0 : current + 1);
-      };
+    };
     
     const prevProject = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
@@ -46,7 +47,7 @@ const Project = () => {
         setProject(projectById(idProject));
         setTechsProject(project.techs);
         setImagesProject(project.images);
-    }, [idProject, project]);
+    }, [idProject, project, projectById]);
 
     const imagesByProject = () => {
         if (imagesProject != undefined) {
@@ -55,12 +56,12 @@ const Project = () => {
                     {imagesProject.map((image, index) => {
                         return (
                             <div className={index === current ? 'slide active' : 'slide'} key={index}>
-                                {index === current && ( 
-                                <>
-                                    { current > 0 ? <IoIosArrowDropleftCircle className='arrow-left' onClick={prevProject} /> : <></> }
-                                    { current !== length -1 ? <IoIosArrowDroprightCircle className='arrow-right' onClick={nextProject} /> : <></>}                                    
-                                    <img alt="imagen" className="p-image wow animate__animated animate__fadeIn" src={image} />
-                                </>
+                                { index === current && ( 
+                                    <>
+                                        { current > 0 ? <IoIosArrowDropleftCircle className='arrow-left' onClick={prevProject} /> : <></> }
+                                        { current !== length -1 ? <IoIosArrowDroprightCircle className='arrow-right' onClick={nextProject} /> : <></>}                                    
+                                        <img alt="imagen" className="p-image wow animate__animated animate__fadeIn" src={image} />
+                                    </>
                                 )}
                             </div>
                         );
@@ -73,19 +74,18 @@ const Project = () => {
                 </>
             );
         }
-    }
+    };
 
     const techsByProject = () => {
         if (techsProject != undefined) {
             return (
                 <>
-                
-                    {techsProject.map(tech => {
-                            return (
-                                <div className="project-tech hvr-float-shadow">
-                                    <p>{tech}</p>
-                                </div>
-                            );
+                    { techsProject.map(tech => {
+                        return (
+                            <div className="project-tech hvr-float-shadow">
+                                <p>{tech}</p>
+                            </div>
+                        );
                     })}
                 </>
             );
@@ -95,21 +95,19 @@ const Project = () => {
                 </>
             );
         }
-    }
+    };
 
     return (
         <>
             <div className="navbar">
-                    <NavBar2 theme={theme} setTheme={setTheme} />
+                <NavBar2 theme={theme} setTheme={setTheme} />
             </div> 
             <div className="project-container" data-theme={theme}>
                 <div className="box-project wow animate__animated animate__zoomIn">    
                     <p className="title-project">{project.title}</p>
                     <div className="images-container">
-                        {imagesByProject()} 
-                        
+                        {imagesByProject()}           
                     </div>
-
                     <p className="text-project">{project.text}</p>
                     <p className="techs">Tecnologias utilizadas:</p>
                     <div className='box-techs'>
@@ -121,57 +119,57 @@ const Project = () => {
                     </div>
                 </div>
                 <div className="background-animated">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </>
     );

@@ -32,13 +32,11 @@ const Navbar2 = ( props ) => {
                             <div></div>
                             <div></div>
                         </label>
-                    </div>
-                </div>
-                <div className="nav-links2"> 
-                    <div className="theme-21">
+                        <div className="theme-3">
                         <div className='icon-theme' onClick={() => changeMode()}>
                             { theme === "dark" ? <BsFillMoonFill  className='icon-dark' size={25}/> : <BsFillSunFill className='icon-light' size={25}/>}
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>  

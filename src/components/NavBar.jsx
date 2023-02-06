@@ -27,14 +27,13 @@ const Navbar = ( props ) => {
                                 { theme === "dark" ? <BsFillMoonFill className='icon-dark' size={35}/> : <BsFillSunFill className='icon-light' size={35}/>}
                             </div>
                         </div>
-
                         <label className="nav-check" htmlFor="nav-check">
                             <div></div>
                             <div></div>
                             <div></div>
                         </label>
                     </div>
-                    <div className="nav-links "> 
+                    <div className="nav-links">                  
                         <a href="/#home" className="btn-btn hvr-underline-from-left" >Inicio</a>
                         <a href="/#aboutMe" className="btn-btn hvr-underline-from-left" >Sobre mí</a>
                         <a href="/#skills" className="btn-btn hvr-underline-from-left" >Habilidades</a>
