@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useEffect } from 'react';
 import foto from '../assets/img/foto.jpeg'; 
 import WOW from 'wowjs';
@@ -15,7 +16,7 @@ const AboutMe = ( props ) => {
   
     return (
         <>
-            <a name='sobreMi' />
+            <a href="#aboutMe" name='aboutMe'/>
             <div className='about-container' data-theme={theme}>
                 <div className='title-box span1 wow animate__animated animate__zoomIn animate__delay-0.5s'>
                     <p>SOBRE MÍ</p>

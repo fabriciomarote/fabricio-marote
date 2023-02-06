@@ -97,9 +97,6 @@ const Project = () => {
         }
     }
 
-    console.log( "current" + current)
-    console.log(length)
-
     return (
         <>
             <div className="navbar">

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState, useEffect } from 'react';
 import projects from "../data/Projects.js";
 import ModelProject from './ModelProject.jsx';
@@ -44,7 +45,7 @@ const Proyects = () => {
 
     return (
         <>
-            <a name='proyectos'/>
+            <a href="#projects" name='projects'/>
             <div className='projects-box-container'>
                 <div className='title-box wow animate__animated animate__zoomIn'>
                     <p>MIS PROYECTOS</p>

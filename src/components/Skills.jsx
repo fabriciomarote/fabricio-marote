@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useEffect } from 'react';
 import { FaGithub, FaJs, FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaBootstrap, FaNode, FaJava } from "react-icons/fa";
 import { DiMongodb, DiMysql, DiScrum, DiTrello } from "react-icons/di"; 
@@ -16,7 +17,7 @@ const Skills = () => {
   
     return (
       <>
-         <a name='habilidades' />
+         <a href="#skills" name='skills'/>
          <div className='skills-container'>
             <div className='title-box wow animate__animated animate__zoomIn'>
                <p>MIS HABILIDADES / CONOCIMIENTOS</p>

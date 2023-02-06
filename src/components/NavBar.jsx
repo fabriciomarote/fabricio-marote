@@ -35,11 +35,11 @@ const Navbar = ( props ) => {
                         </label>
                     </div>
                     <div className="nav-links "> 
-                        <a href="/#inicio" className="btn-btn hvr-underline-from-left" >Inicio</a>
-                        <a href="/#sobreMi" className="btn-btn hvr-underline-from-left" >Sobre mí</a>
-                        <a href="/#habilidades" className="btn-btn hvr-underline-from-left" >Habilidades</a>
-                        <a href="/#proyectos" className="btn-btn hvr-underline-from-left">Proyectos</a>
-                        <a href="/#contacto" className="btn-btn hvr-underline-from-left"> Contacto</a> 
+                        <a href="/#home" className="btn-btn hvr-underline-from-left" >Inicio</a>
+                        <a href="/#aboutMe" className="btn-btn hvr-underline-from-left" >Sobre mí</a>
+                        <a href="/#skills" className="btn-btn hvr-underline-from-left" >Habilidades</a>
+                        <a href="/#projects" className="btn-btn hvr-underline-from-left">Proyectos</a>
+                        <a href="/#contact" className="btn-btn hvr-underline-from-left"> Contacto</a> 
                         <div className="theme-2">
                             <div className='icon-theme' onClick={() => changeMode()}>
                                 { theme === "dark" ? <BsFillMoonFill  className='icon-dark' size={35}/> : <BsFillSunFill className='icon-light' size={35}/>}

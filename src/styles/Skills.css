@@ -8,13 +8,13 @@
     background: var(--background2);
     transition: all .5s;
 }
-
 .box-icons {
     display: grid;
     justify-content: center; 
     align-items: center;
     gap: 2rem;
     grid-template-columns: repeat(5, 1fr);
+    z-index: 5;
 }
 
 .title-icon {

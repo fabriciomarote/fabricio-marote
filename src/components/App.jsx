@@ -19,14 +19,68 @@ const App = () => {
       <div className='app' data-theme={theme}>
         <div className="navbar">
           <NavBar theme={theme} setTheme={setTheme} />
-        </div> 
-        <Home theme={theme} setTheme={setTheme} />
-        <AboutMe theme={theme} setTheme={setTheme} />
-        <Skills theme={theme} setTheme={setTheme} />
-        <Projects theme={theme} setTheme={setTheme} />
-        <Contact  theme={theme} setTheme={setTheme} />
-        <Footer theme={theme} setTheme={setTheme} /> 
-        <ScrollButton />
+        </div>
+        <div> 
+          <Home theme={theme} setTheme={setTheme} />
+          <AboutMe theme={theme} setTheme={setTheme} />
+          <Skills theme={theme} setTheme={setTheme} />
+          <Projects theme={theme} setTheme={setTheme} />
+          <Contact  theme={theme} setTheme={setTheme} />
+          <Footer theme={theme} setTheme={setTheme} /> 
+          <ScrollButton />
+        </div>
+        <div className="background-animated">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
       </div> 
   );
 };

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState, useEffect } from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosPaper } from "react-icons/io"
@@ -28,7 +29,7 @@ const Contact = ( props ) => {
   
     return (
         <>
-            <a name='contacto' />
+            <a href="#contact" name='contact'/>
             <div className='contact-container' data-theme={theme}>
                 <p className='title-box wow animate__animated animate__zoomIn'> CONTACTAME</p>
                 <div className='box-form wow animate__animated animate__zoomIn'>

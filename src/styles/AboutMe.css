@@ -8,16 +8,16 @@
     background: var(--background2);
     transition: all .5s;
     text-align: center;
+    z-index: 10;
 }
-
 .body-about {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin-top: 0px;
+    z-index: 5;
 }
-
 .box-image {
     display: flex;
     flex-direction: row;
@@ -26,7 +26,6 @@
     width: 30%;
     height: 100%;
 }
- 
 .foto {
     width: 400px;
     height: 400px;
