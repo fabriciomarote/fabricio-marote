@@ -5,8 +5,9 @@
   align-items: center;
   font-family: 'Arial Narrow Bold', sans-serif;
   background-color: var(--background-navbar);
+  background: var(--background-navbar);
   transition: all .5s;
-  z-index: 10;
+  z-index: 6;
 }
 .box-logo {
   display: flex;
@@ -61,6 +62,7 @@
   width: 35px;
   height: 35px;
   box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2 );
+  margin-right: 20px;
 }
 
 @media (min-width: 1200px) {
@@ -305,15 +307,17 @@
 @media only screen and (min-width:0px) and (max-width:480px){
   .navbar-container {
     display: flex;
+    position:relative;
     flex-direction: row;  
     justify-content: space-between;
     align-items: center;
     min-width: 100vw;
     height: 15vh;
-    z-index: 10;
+    background-color: var(--background-navbar);
   }
   .nav-header {
     display: flex;
+    position:relative;
     flex-direction: row;
     align-items: center;
     width: 100%;
@@ -330,6 +334,7 @@
     width: 50%;
     height: 15vh;
     gap: 2rem;
+    z-index: 10;
   }
   .nav > .nav-btn > label {
     display: flex;
@@ -396,7 +401,7 @@
     transition: all .3s;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(85% - 0px);
+    height: calc(500px - 0px);
     width: calc(100% - 0px);
     overflow-x: hidden;
     overflow-y: hidden;
@@ -410,6 +415,7 @@
     width: 60%;
     height: 50px;
     margin-left: 10px;
+    z-index: 10;
   }
   .theme-2 {
     display: none;

@@ -83,7 +83,8 @@
 @media (min-width: 1200px) {
     .contact-container {
         min-width:99vw;
-        min-height: 87vh;
+        height: 90vh;
+        margin-top: 0px;
     }
     .box-form {
         display: grid;
@@ -128,7 +129,7 @@
 @media only screen and (min-width:0px) and (max-width:480px){
     .contact-container {
         width:100%;
-        min-height: 90vh;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
