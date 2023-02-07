@@ -292,7 +292,7 @@
     flex-direction: row;  
     justify-content: space-between;
     align-items: center;
-    min-width: 100vw;
+    min-width: 99vw;
     height: 10vh;
     background-color: var(--background-navbar);
     z-index: 10;
@@ -310,7 +310,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-width: 700px;
+    min-width: 600px;
   }
   .nav > .nav-btn {
     display: flex;
@@ -366,7 +366,7 @@
     padding-top: 0px;
     transition: all 0.5s ease-in;
     overflow-x: hidden;
-    top: 110px;
+    top: 80px;
     left: 0px;
     background-color: var(--background-navbar);
     z-index: 10;
@@ -386,7 +386,7 @@
     transition: all .3s;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(1200px - 0px);
+    height: calc(750px - 0px);
     width: calc(100% - 0px);
     overflow-x: hidden;
     overflow-y: hidden;
@@ -395,7 +395,7 @@
   .logo {
     display: flex;
     width: 80%;
-    height: 70px;
+    height: 60px;
     margin-left: 10px;
     z-index: 10;
   }

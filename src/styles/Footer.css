@@ -32,9 +32,7 @@
 
 @media only screen and (min-width:481px) and (max-width:720px) {
   .footer-container {
-    min-width:99%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    min-width:100%;
   }
   .col-sm{
     font-size:18px;

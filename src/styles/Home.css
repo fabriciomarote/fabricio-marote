@@ -44,14 +44,14 @@
   }
 }
 
-@media only screen and (min-width:481px) and (max-width:768px) {
+@media only screen and (min-width:481px) and (max-width:720px) {
   .home-container {
     min-width: 100vw;
     height: 90vh;
     background-position: center center;
   }
   .box-home {
-    font-size:60px;
+    font-size:55px;
   }
   .animate__lightSpeedInLeft, .animate__lightSpeedInRight {
     --animate-duration: 2s;
