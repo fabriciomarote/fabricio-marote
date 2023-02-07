@@ -1,15 +1,12 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { TbError404 } from "react-icons/tb";
-import useLocalStorage from 'use-local-storage';
 import '../styles/InvalidRoute.css'
 
- const InvalidRoute = () => {
+ const InvalidRoute = ( props ) => {
 
+    const { theme } = props;
     const navigate = useNavigate();
-
-    const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const theme = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
 
     return (
         <div className='invalid' data-theme={theme}>
@@ -22,6 +19,58 @@ import '../styles/InvalidRoute.css'
                 <div className='box-btn'>
                     <button className='btn-invalid hvr-rectangle-out' onClick={ ()=> navigate('/')}>Volver al inicio</button>
                 </div>
+            </div>
+            <div className="background-animated">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     );

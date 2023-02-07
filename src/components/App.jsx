@@ -7,13 +7,11 @@ import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 import ScrollButton from '../components/scroll/ScrollButton.jsx';
-import useLocalStorage from 'use-local-storage';
 import '../styles/App.css';
 
-const App = () => {
+const App = ( props ) => {
 
-  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+  const { theme, setTheme } = props;
 
   return (
       <div className='app' data-theme={theme}>
