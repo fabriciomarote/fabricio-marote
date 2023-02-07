@@ -20,7 +20,7 @@ const Skills = () => {
          <a href="#skills" name='skills'/>
          <div className='skills-container'>
             <div className='title-box wow animate__animated animate__zoomIn'>
-               <p>MIS HABILIDADES / CONOCIMIENTOS</p>
+               <p>MIS HABILIDADES</p>
             </div> 
             <div className='box-icons wow animate__animated animate__zoomIn'>
                <div className='icon hvr-grow-shadow'>

@@ -12,13 +12,14 @@
     display: grid;
     justify-content: center; 
     align-items: center;
-    gap: 2rem;
-    grid-template-columns: repeat(5, 1fr);
     z-index: 5;
 }
+.icon {
+    overflow: hidden;
+    border-radius: 20px;
+    border: none;
+}
 .title-icon {
-    font-size: 30px;
-    font-weight: 600;
     color: white;
 }
 /* Grow Shadow */
@@ -69,7 +70,7 @@
     width: 100%;
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width:1200px) {
     .skills-container {
         min-width:99vw;
     }
@@ -77,10 +78,43 @@
         margin-bottom: 100px;
         width:99%;
         padding: 20px;
+        gap: 2rem;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .title-icon {
+        font-size: 30px;
+        font-weight: 600;
     }
 }
 
-@media only screen and (min-width:481px) and (max-width:768px) {
+@media only screen and (min-width:721px) and (max-width: 1199px) {
+    .skills-container {
+        height: 100vh;
+        background: var(--background2);
+    }
+    .box-icons {
+        width: 100%;
+        padding: 10px;
+        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .icon {
+        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+        color: rgb(176, 0, 0);
+        max-width: 200px;
+        height: 80px;
+        margin: 10px;
+    }
+    .icon-skill {
+        padding-top: 5px;
+    }
+    .title-icon {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:720px) {
     .skills-container {
         min-height: 100vh;
         align-items: center;
@@ -92,20 +126,17 @@
         display: grid;
         justify-content: center; 
         align-items: center;
-        width: 90%;
-        gap: 2rem;
-        grid-template-columns: repeat(3, 1fr);
-        margin-bottom: 50px;
+        width: 80%;
+        gap: 0rem;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 70px;
     }
     .icon {
-        overflow: hidden;
-        border-radius: 20px;
-        border: none;
         box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
         color: rgb(176, 0, 0);
         max-width: 200px;
         height: 80px;
-        margin: 0px;
+        margin: 30px;
     }
     .icon-skill {
         padding-top: 5px;
@@ -133,13 +164,10 @@
         margin-bottom: 50px;
     }
     .icon {
-        overflow: hidden;
-        border-radius: 20px;
-        border: none;
         box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
         color: rgb(176, 0, 0);
-        max-width: 150px;
-        height: 80px;
+        max-width: 120px;
+        height: 70px;
         margin: 0px;
     }
     .icon-skill {
