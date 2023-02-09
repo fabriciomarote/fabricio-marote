@@ -39,7 +39,7 @@ export const Button = styled.div`
    }
    @media only screen and (min-width:0px) and (max-width:480px){
       width: 100%;
-      left: 77%;
+      left: 80%;
       top:80%;
       font-size: 4rem;
    }
