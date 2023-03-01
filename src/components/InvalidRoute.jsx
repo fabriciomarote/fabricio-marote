@@ -3,9 +3,8 @@ import { useNavigate } from 'react-router-dom'
 import { TbError404 } from "react-icons/tb";
 import '../styles/InvalidRoute.css'
 
- const InvalidRoute = ( props ) => {
+ const InvalidRoute = ({ theme }) => {
 
-    const { theme } = props;
     const navigate = useNavigate();
 
     return (
@@ -17,7 +16,7 @@ import '../styles/InvalidRoute.css'
                     <h5>No se ha podido encontrar la página solicitada</h5>
                 </div>
                 <div className='box-btn'>
-                    <button className='btn-invalid hvr-rectangle-out' onClick={ ()=> navigate('/')}>Volver al inicio</button>
+                    <button className='btn-invalid hvr-rectangle-out' onClick={ () => navigate('/')}>Volver al inicio</button>
                 </div>
             </div>
             <div className="background-animated">

@@ -9,9 +9,7 @@ import Footer from '../components/Footer';
 import ScrollButton from '../components/scroll/ScrollButton.jsx';
 import '../styles/App.css';
 
-const App = ( props ) => {
-
-  const { theme, setTheme } = props;
+const App = ({ theme, setTheme }) => {
 
   return (
       <div className='app' data-theme={theme}>

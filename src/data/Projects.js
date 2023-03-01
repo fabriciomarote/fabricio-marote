@@ -3,6 +3,9 @@ import Pokedex1 from "../assets/img/projects/Pokedex1.png";
 import Pokedex2 from "../assets/img/projects/Pokedex2.png";
 import Pokedex3 from "../assets/img/projects/Pokedex3.png";
 import Pokedex4 from "../assets/img/projects/Pokedex4.png";
+import Pokedex5 from "../assets/img/projects/Pokedex5.png";
+import Pokedex6 from "../assets/img/projects/Pokedex6.png";
+import Pokedex7 from "../assets/img/projects/Pokedex7.png";
 import PPTLS from "../assets/img/projects/PPTLS.png";
 import PPTLS1 from "../assets/img/projects/PPTLS1.png";
 import PPTLS2 from "../assets/img/projects/PPTLS2.png";
@@ -50,8 +53,8 @@ const projects = [
     {
       id: 1,
       image: Pokedex,
-      images: [Pokedex1, Pokedex2, Pokedex3, Pokedex4 ], 
-      link1: "https://pokedex-web-self.vercel.app",
+      images: [Pokedex1, Pokedex2, Pokedex3, Pokedex4, Pokedex5, Pokedex6, Pokedex7], 
+      link1: "https://pokedex-app-web.vercel.app",
       link2: "https://github.com/fabriciomarote/Pokedex",
       title: "Pokedex",
       techs: ["Javascript","HTML", "CSS", "React", "Bootstrap"],

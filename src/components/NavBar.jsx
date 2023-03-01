@@ -3,9 +3,7 @@ import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 import logo from '../assets/img/logos/logo.png';
 import '../styles/NavBar.css';
 
-const Navbar = ( props ) => {
-
-    const { theme, setTheme } = props;
+const Navbar = ({ theme, setTheme }) => {
 
     const changeMode = () => {
         let newTheme = theme === "light" ? "dark" : "light";

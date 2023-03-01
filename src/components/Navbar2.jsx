@@ -1,11 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 import logo from '../assets/img/logos/logo.png';
 import '../styles/NavBar.css';
 
-const Navbar2 = ( props ) => {
+const Navbar2 = ({ theme, setTheme }) => {
 
-    const { theme, setTheme } = props;
+    const navigate = useNavigate();
 
     const changeMode = () => {
         let newTheme = theme === "light" ? "dark" : "light";
@@ -21,6 +22,7 @@ const Navbar2 = ( props ) => {
                             <a href="/" className='logo'><img src={logo} alt="logo" /></a>
                         </div>
                         <div className="theme-3">
+                            <a onClick={() => navigate(-1)} className="btn-btn">Volver</a> 
                             <div className='icon-theme' onClick={() => changeMode()}>
                                 { theme === "dark" ? <BsFillMoonFill className='icon-dark' size={25}/> : <BsFillSunFill className='icon-light' size={25}/>}
                             </div>

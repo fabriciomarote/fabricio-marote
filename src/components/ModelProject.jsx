@@ -1,9 +1,7 @@
 import React from "react";
 import '../styles/ModelProject.css';
 
-const ModelProject = ( props ) => {
-
-    const { project } = props;
+const ModelProject = ({ project }) => {
 
     return (
         <div className="modelProject-container wow animate__animated animate__flipInY animate__delay-0.5s">
