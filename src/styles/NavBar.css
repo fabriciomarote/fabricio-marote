@@ -65,6 +65,10 @@
   margin-right: 20px;
 }
 
+.theme-3 {
+  color: var(--text-primary);
+}
+
 @media only screen and (min-width: 1200px) {
   .navbar-container {
     min-width: 99vw;
@@ -285,6 +289,11 @@
   .theme-3 {
     display: flex;
     flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+    margin-right: -50px;
+    color: var(--text-primary);
   }
   .icon-theme {
     width: 60px;
@@ -412,6 +421,12 @@
   .theme-3 {
     display: flex;
     flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin-right: -100px;
+    color: var(--text-primary);
   }
   .icon-theme {
     width: 60px;
@@ -553,6 +568,8 @@
   .theme-3 {
     display: flex;
     flex-direction: row;
+    gap: 1rem;
+    color: var(--text-primary);
   }
   .icon-theme {
     width: 50px;
