@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
-import logo from '../assets/img/logos/logo.png';
+import logo from '../assets/img/logos/logo2.png';
 import '../styles/NavBar.css';
 
 const Navbar = ({ theme, setTheme }) => {
@@ -32,11 +32,11 @@ const Navbar = ({ theme, setTheme }) => {
                         </label>
                     </div>
                     <div className="nav-links">                  
-                        <a href="/#home" className="btn-btn hvr-underline-from-left" >Inicio</a>
-                        <a href="/#aboutMe" className="btn-btn hvr-underline-from-left" >Sobre mí</a>
-                        <a href="/#skills" className="btn-btn hvr-underline-from-left" >Habilidades</a>
-                        <a href="/#projects" className="btn-btn hvr-underline-from-left">Proyectos</a>
-                        <a href="/#contact" className="btn-btn hvr-underline-from-left"> Contacto</a> 
+                        <a href="/#home" className="btn-btn hvr-underline-from-left" >INICIO</a>
+                        <a href="/#aboutMe" className="btn-btn hvr-underline-from-left" >SOBRE MI</a>
+                        <a href="/#skills" className="btn-btn hvr-underline-from-left" >CONOCIMIENTOS</a>
+                        <a href="/#projects" className="btn-btn hvr-underline-from-left">PROYECTOS</a>
+                        <a href="/#contact" className="btn-btn hvr-underline-from-left"> CONTACTO</a> 
                         <div className="theme-2">
                             <div className='icon-theme' onClick={() => changeMode()}>
                                 { theme === "dark" ? <BsFillMoonFill  className='icon-dark' size={35}/> : <BsFillSunFill className='icon-light' size={35}/>}

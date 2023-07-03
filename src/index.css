@@ -15,25 +15,33 @@ code {
 :root {
   --background: #f3f3f3;
   --background2: linear-gradient(90deg, rgba(212,210,210,1) 3%, rgba(231,231,238,1) 33%, rgba(238,232,232,1) 65%, rgba(209,212,214,1) 100%);
+  --background3:#cdcdcd;
+  --background4:#cdcdcd;
   --background-navbar:#cdcdcd;
   --text-primary: black;
   --text-primary2: white;
-  --icon: rgb(176, 0, 0);
+  --underline: #0097B2;
+  --underline2: #00BF63;
+  --icon: #FF914D;
   --hover: #000000;
   --hover2: rgba(69, 69, 69, 0.9);
   --form-contact: #e8e8e8;
-  --background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(./assets/img/fondos/white.jpg);
+  --background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(./assets/img/fondos/background.jpg);
 }
 [data-theme='dark'] {
   --background: #17151547;
   --background2: linear-gradient(90deg, rgba(19,19,24,1) 3%, rgba(38,38,41,1) 35%, rgba(31,33,33,1) 61%, rgba(13,16,18,1) 100%);
+  --background3:#cdcdcd;
+  --background4:#17151547;
   --background-navbar:rgb(10, 10, 10);
   --text-primary: white;
   --text-primary2: black;
-  --icon: #B00000;
+  --underline: #00BF63;
+  --underline2: #0097B2;
+  --icon: #FF914D;
   --hover: #FFFFFF;
   --hover2: rgba(120, 1, 1, 0.9);
   --form-contact: #0e0e0e77;
-  --background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./assets/img/fondos/black2.jpg);;
+  --background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./assets/img/fondos/background2.jpg);;
 
 }

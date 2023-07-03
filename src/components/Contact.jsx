@@ -18,7 +18,9 @@ const Contact = ({ theme }) => {
         <>
             <a href="#contact" name='contact'/>
             <div className='contact-container' data-theme={theme}>
-                <p className='title-box wow animate__animated animate__zoomIn'> CONTACTAME</p>
+                <div className='title-box wow animate__animated animate__zoomIn'> 
+                    <span className='hvr-underline-from-center'>CONTACTAME</span>
+                </div>
                 <div className='box-form wow animate__animated animate__zoomIn'>
                     <a href="https://drive.google.com/file/d/1G2flSVyitVMo85QCV5juiW6vlxzHHfIe/view?usp=sharing" className='button-contact hvr-sweep-to-right'><IoIosPaper size={30} className="icon-contact"/> Mi Curriculum Vitae</a> 
                     <a href="mailto:fabricio.gm1993@gmail.com" className='button-contact hvr-sweep-to-right'><MdEmail size={30} className="icon-contact "/> fabricio.gm1993@gmail.com</a> 

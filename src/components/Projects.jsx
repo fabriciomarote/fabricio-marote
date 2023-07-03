@@ -48,7 +48,7 @@ const Proyects = () => {
             <a href="#projects" name='projects'/>
             <div className='projects-box-container'>
                 <div className='title-box wow animate__animated animate__zoomIn'>
-                    <p>MIS PROYECTOS</p>
+                    <span className='hvr-underline-from-center'>MIS PROYECTOS</span>
                 </div> 
                 <div className='buttons-box wow animate__animated animate__zoomIn'>
                     <button className='buttons hvr-sweep-to-top' onClick={() => { changeView("Backend") }}>Back End</button>

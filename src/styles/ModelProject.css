@@ -4,6 +4,7 @@
     border: none;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
     color: #fff;
+    background-color: #FF914D;
 }
 .modelProject-container:hover .add-info {
     transform: translateY(0%);

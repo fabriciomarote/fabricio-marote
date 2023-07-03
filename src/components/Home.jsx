@@ -9,10 +9,10 @@ const Home = ({ theme }) => {
             <a href="#home" name='home'/>
             <div className='home-container col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12' data-theme={theme}>
                 <div className='box-home col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
-                    <span className='animate__animated animate__lightSpeedInLeft animate__delay-1s'>Hola,</span>
-                    <span className='animate__animated animate__lightSpeedInLeft animate__delay-1s'>Soy Fabricio.</span>
-                    <span className='span1 animate__animated animate__lightSpeedInRight animate__delay-1s'>Desarrollador Web</span>
-                    <span className='span1 animate__animated animate__lightSpeedInRight animate__delay-1s'>Full Stack</span>
+                    <span className='span1 animate__animated animate__slideInDown animate__delay-0.5s'>HOLA, ME LLAMO</span>
+                    <span className='span2'> FABRICIO MAROTE</span>
+                    <span className='span1 animate__animated animate__slideInUp animate__delay-0.5s'>Y SOY</span>
+                    <span className='span3'>DESARROLLADOR FULLSTACK</span>
                 </div> 
             </div>
         </>

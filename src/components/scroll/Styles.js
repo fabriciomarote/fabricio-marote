@@ -20,7 +20,7 @@ export const Button = styled.div`
    font-size: 4rem;
    z-index: 10;
    cursor: pointer;
-   color: var(--hover);
+   color: var(--underline);
    @media (min-width: 1280px) {
       left: 94%;
       top:79%;

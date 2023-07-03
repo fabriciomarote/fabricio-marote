@@ -16,6 +16,7 @@
 .icon-contact {
     margin-right: 15px;
 }
+
 /* Sweep To Right */
 .hvr-sweep-to-right {
     display: inline-block;
@@ -36,7 +37,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #B00000;
+    background: var(--underline2);
     border-radius: 10px;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
