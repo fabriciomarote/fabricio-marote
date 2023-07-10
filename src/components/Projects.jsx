@@ -47,8 +47,21 @@ const Proyects = () => {
         <>
             <a href="#projects" name='projects'/>
             <div className='projects-box-container'>
-                <div className='title-box wow animate__animated animate__zoomIn'>
-                    <span className='hvr-underline-from-center'>MIS PROYECTOS</span>
+                <div className='wow animate__animated animate__zoomIn'>
+                    <div className='title-box'>
+                        <span>M</span>
+                        <span>I</span>
+                        <span>S </span>
+                        <span>P</span>
+                        <span>R</span>
+                        <span>O</span>
+                        <span>Y</span>
+                        <span>E</span>
+                        <span>C</span>
+                        <span>T</span>
+                        <span>O</span>
+                        <span>S</span>
+                    </div>
                 </div> 
                 <div className='buttons-box wow animate__animated animate__zoomIn'>
                     <button className='buttons hvr-sweep-to-top' onClick={() => { changeView("Backend") }}>Back End</button>
@@ -57,16 +70,8 @@ const Proyects = () => {
                 </div> 
                 <div className='box-home-2'>
                     <div className='box-projects'>
-                        <MdArrowBackIosNew className='left-arrow' onClick={prevProject} />
-                        <MdArrowForwardIos className='right-arrow' onClick={nextProject} />
-                        { viewProjects.map((project, index) => {
-                            return (
-                                <div className={index === current ? 'slide active' : 'slide'} key={index}>
-                                    {index === current && ( 
-                                        <ModelProject key={project.id} project={project}/>
-                                    )}
-                                </div>
-                            );
+                        { viewProjects.map((project) => {                        
+                            return   <ModelProject key={project.id} project={project}/>
                         })}
                     </div>
                 </div>
@@ -76,3 +81,22 @@ const Proyects = () => {
 };
   
 export default Proyects;
+
+
+/*
+
+<div className='box-projects'>
+    <MdArrowBackIosNew className='left-arrow' onClick={prevProject} />
+    <MdArrowForwardIos className='right-arrow' onClick={nextProject} />
+    { viewProjects.map((project, index) => {
+        return (
+            <div className={index === current ? 'slide active' : 'slide'} key={index}>
+                {index === current && ( 
+                    <ModelProject key={project.id} project={project}/>
+                )}
+            </div>
+        );
+    })}
+</div>
+
+*/

@@ -19,8 +19,25 @@ const Skills = () => {
       <>
          <a href="#skills" name='skills'/>
          <div className='skills-container'>
-            <div className='title-box wow animate__animated animate__zoomIn'>
-               <span className='hvr-underline-from-center'>MIS CONOCIMIENTOS</span>
+            <div className=' wow animate__animated animate__zoomIn'>
+               <div className='title-box'>
+                  <span>M</span>
+                  <span>I</span>
+                  <span>S </span>
+                  <span>C</span>
+                  <span>O</span>
+                  <span>N</span>
+                  <span>O</span>
+                  <span>C</span>
+                  <span>I</span>
+                  <span>M</span>
+                  <span>I</span>
+                  <span>E</span>
+                  <span>N</span>
+                  <span>T</span>
+                  <span>O</span>
+                  <span>S</span>
+               </div>
             </div> 
             <div className='box-icons wow animate__animated animate__zoomIn'>
                <div className='contenedor'>

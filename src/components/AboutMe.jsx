@@ -17,13 +17,13 @@ const AboutMe = ({ theme }) => {
             <a href="#aboutMe" name='aboutMe'/>
             <div className='about-container' data-theme={theme}>
                 <div className='body-left'>
-                    <div className='card-title wow'>
-                        <div className='hvr-underline-from-center'>
+                    <div className='wow'>
+                        <div className='card-title hvr-underline-from-center'>
                             <span className='about-title1'>SOBRE</span> <span className='about-title2'>MÍ</span>
                         </div>
                     </div>
                     <div className='box-image rotate-center wow'>
-                        <img className='foto hvr-icon-grow-rotate' src={foto} alt="logo" />
+                        <img className='foto hvr-float-shadow' src={foto} alt="logo" />
                     </div>  
                 </div>
                 <div className='body-right'>

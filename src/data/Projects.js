@@ -1,4 +1,4 @@
-import Pokedex from "../assets/img/projects/Pokedex-1.png";
+import Pokedex from "../assets/img/projects/Pokedex1.png";
 import Pokedex1 from "../assets/img/projects/Pokedex1.png";
 import Pokedex2 from "../assets/img/projects/Pokedex2.png";
 import Pokedex3 from "../assets/img/projects/Pokedex3.png";
@@ -6,7 +6,7 @@ import Pokedex4 from "../assets/img/projects/Pokedex4.png";
 import Pokedex5 from "../assets/img/projects/Pokedex5.png";
 import Pokedex6 from "../assets/img/projects/Pokedex6.png";
 import Pokedex7 from "../assets/img/projects/Pokedex7.png";
-import PPTLS from "../assets/img/projects/PPTLS-1.png";
+import PPTLS from "../assets/img/projects/PPTLS1.png";
 import PPTLS1 from "../assets/img/projects/PPTLS1.png";
 import PPTLS2 from "../assets/img/projects/PPTLS2.png";
 import PPTLS3 from "../assets/img/projects/PPTLS3.png";
@@ -14,7 +14,7 @@ import PPTLS4 from "../assets/img/projects/PPTLS4.png";
 import PPTLS5 from "../assets/img/projects/PPTLS5.png";
 import PPTLS6 from "../assets/img/projects/PPTLS6.png";
 import PPTLS7 from "../assets/img/projects/PPTLS7.png";
-import Rotten from "../assets/img/projects/Rotten-1.png";
+import Rotten from "../assets/img/projects/rotten1.png";
 import Rotten1 from "../assets/img/projects/rotten1.png";
 import Rotten2 from "../assets/img/projects/rotten2.png";
 import Rotten3 from "../assets/img/projects/rotten3.png";
@@ -25,9 +25,9 @@ import Rotten7 from "../assets/img/projects/rotten7.png";
 import Rotten8 from "../assets/img/projects/rotten8.png";
 import Rotten9 from "../assets/img/projects/rotten9.png";
 import Rotten10 from "../assets/img/projects/rotten10.png";
-import Calculadora from "../assets/img/projects/Calculadora-1.png";
+import Calculadora from "../assets/img/projects/calculadora1.png";
 import Calculadora1 from "../assets/img/projects/calculadora1.png";
-import Turnero from "../assets/img/projects/Turnero-1.png";
+import Turnero from "../assets/img/projects/turnero1.png";
 import Turnero1 from "../assets/img/projects/turnero1.png";
 import Turnero2 from "../assets/img/projects/turnero2.png";
 import Turnero3 from "../assets/img/projects/turnero3.png";
@@ -44,9 +44,9 @@ import Turnero13 from "../assets/img/projects/turnero13.png";
 import Turnero14 from "../assets/img/projects/turnero14.png";
 import Turnero15 from "../assets/img/projects/turnero15.png";
 import Turnero16 from "../assets/img/projects/turnero16.png";
-import Unqfy from "../assets/img/projects/Unqfy-1.png"
+import Unqfy from "../assets/img/projects/Unqfy1.png"
 import Unqfy1 from "../assets/img/projects/Unqfy1.png"
-import Ubermen from "../assets/img/projects/Ubermen-1.png"
+import Ubermen from "../assets/img/projects/ubermen1.png"
 import Ubermen1 from "../assets/img/projects/ubermen1.png"
 
 const projects = [
