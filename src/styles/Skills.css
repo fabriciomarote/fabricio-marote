@@ -44,7 +44,7 @@
     height: 300px;
     width: 300px;
     background-image: conic-gradient(#FF914D, #0097B2, #00BF63 300deg, transparent 100deg);
-    animation: rotar 1.5s linear infinite;
+    animation: rotar 2.0s linear infinite;
 }
 
 @keyframes rotar{
@@ -168,7 +168,7 @@ span {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: yellowgreen;
+        padding-bottom: 50px;
     }
     .box-icons {
         display: grid;
@@ -186,11 +186,12 @@ span {
     .tarjeta{
         height: 100px;
         width: 130px;
-        margin: 0px;
+        margin: 0px;    
     }
     .tarjeta::before{
         height: 130px;
         width: 130px;
+        animation: rotar 4.0s linear infinite;
     }
     .tarjeta::after{
         height: 95px;
