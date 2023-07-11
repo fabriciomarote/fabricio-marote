@@ -20,7 +20,7 @@
     padding: 10px;
     transform: translateY(100%);
     transition: all 0.5s ease-out;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.433);
     height: 100%;
 }
 .animate__flipInY {
@@ -121,11 +121,10 @@
 @media only screen and (min-width:0px) and (max-width:480px){
     .modelProject-container {
         width: 100%;
-        height: 220px;
-        margin: 0px;
+        height: 200px;
     } 
     .image-project {
-        width: 300px;
+        width: 100%;
         height: 100%;
         transition: all 0.5s;
     }
@@ -144,6 +143,10 @@
         margin: 20px;
         font-size: 10px;
         border-radius: 1px;
+    }
+    .add-info {
+        padding: 0px;
+        transform: translateY(0%);
     }
 }
 

@@ -322,27 +322,33 @@
 @media only screen and (min-width:0px) and (max-width:480px){
   .about-container {
     width:100%;
+    flex-direction: column;
     min-height: 100vh;
     padding: 0px;
     margin: 0px;
+  }
+  .body-left {
+    margin-top: 50px;
   }  
   .foto {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
     width: 200px;
     height: 200px;
   }
   .text-box {
-    width: 93%;
-    font-size: 20px;
+    width: 85%;
+    font-size: 15px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 100px;
   }
-  .body-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  .about-title1 {
+    font-size: 50px;
+  }
+  
+  .about-title2 {
+    font-size: 51px;
   }
 }
 

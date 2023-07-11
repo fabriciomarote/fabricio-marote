@@ -12,7 +12,8 @@ const Home = ({ theme }) => {
                     <span className='span1 animate__animated animate__slideInDown animate__delay-0.5s'>HOLA, ME LLAMO</span>
                     <span className='span2'> FABRICIO MAROTE</span>
                     <span className='span1 animate__animated animate__slideInUp animate__delay-0.5s'>Y SOY</span>
-                    <span className='span3'>DESARROLLADOR FULLSTACK</span>
+                    <span className='span3'>DESARROLLADOR</span>
+                    <span className='span3'>FULLSTACK</span>
                 </div> 
             </div>
         </>

@@ -18,7 +18,7 @@ const AboutMe = ({ theme }) => {
             <div className='about-container' data-theme={theme}>
                 <div className='body-left'>
                     <div className='wow'>
-                        <div className='card-title hvr-underline-from-center'>
+                        <div className='card-title'>
                             <span className='about-title1'>SOBRE</span> <span className='about-title2'>MÍ</span>
                         </div>
                     </div>
